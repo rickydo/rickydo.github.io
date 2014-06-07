@@ -10,18 +10,23 @@ body {
 
 div{
 	background-color: #848484;
-	margin:0 auto;
 	border: 2px white solid;
 	padding: 20px;
-	position: relative;
 	border-radius: 10px
+
 }
 
 #content{
 	width: 50%;
+	position:absolute;
+	margin-left: 200px
+	
 }
 
 #sidebar{
 	width: 20%;
-	text-align:center;
-}
+	text-align: center;
+	margin:0px 100px 0px 2px;
+	position:fixed;
+	margin-left:1200px;
+}	
