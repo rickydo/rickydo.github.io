@@ -8,13 +8,20 @@ body {
 	background-color:#BDBDBD;
 }
 
-#content{
+div{
 	background-color: #848484;
-	float: left;
-	width: 50%;
-	margin: 2px;
+	margin:0 auto;
 	border: 2px white solid;
 	padding: 20px;
 	position: relative;
 	border-radius: 10px
+}
+
+#content{
+	width: 50%;
+}
+
+#sidebar{
+	width: 20%;
+	text-align:center;
 }
