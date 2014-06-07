@@ -5,6 +5,16 @@ p{
 }
 
 body {
-	background-color:white;
+	background-color:#BDBDBD;
 }
 
+#content{
+	background-color: #848484;
+	float: left;
+	width: 50%;
+	margin: 2px;
+	border: 2px white solid;
+	padding: 20px;
+	position: relative;
+	border-radius: 10px
+}
