@@ -4,6 +4,11 @@ div{
 	padding: 20px;
 	border-radius: 10px
 	text-align:center;
-	width: 40%;
+	width: 50%;
 	margin-left: 400px;
+}
+
+p{
+	color: white;
+	font-size: 18px
 }
