@@ -1,0 +1,52 @@
+body {
+	background-color:#585858;
+	max-width:100%;
+}
+#sidebar{
+	background-color: #848484;
+	border: 2px white solid;
+	padding: 5%;
+	text-align:center;
+	width: 40%;
+	margin: auto;
+}
+
+h1{
+	font-size: 1.500em;
+}
+
+body h1 {
+	font-size:1.70em;
+	font-family: Arial, sans-serif;
+}
+
+#sidebar p {
+	color: white;
+}
+
+#me {
+	color:white;
+}
+
+#sidebar a {
+	color:white;
+}
+
+
+#sidebar a:visited {
+	color:red;
+}
+
+#sidebar a:hover {
+	color:black;
+}
+
+img {
+	width:25%;
+}
+<!--for smaller resolution-->
+@media screen and (max-width:480px){
+	#sidebar {
+		width:48%;
+	}
+}
