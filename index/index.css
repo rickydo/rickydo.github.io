@@ -8,7 +8,7 @@ body {
 	padding: 5%;
 	text-align:center;
 	width: 40%;
-	margin: auto;
+	margin: 5% 10% 5% 25% ;
 }
 
 h1{
@@ -44,9 +44,18 @@ body h1 {
 img {
 	width:25%;
 }
-<!--for smaller resolution-->
+/*for smaller resolution*/
 @media screen and (max-width:480px){
 	#sidebar {
-		width:48%;
+		width:100%;
+		margin:0%;
+	}
+}
+
+/*for larger resolution*/
+@media screen and (min-width: 1000px){
+	#sidebar{
+		width:50%;
+		margin:10%;
 	}
 }
