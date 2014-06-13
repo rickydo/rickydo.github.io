@@ -1,7 +1,7 @@
 body {
-	background-image:url('images/leaf.jpg');
+	background-image:url('../images/leaf.jpg');
 	background-size:100%;
-	background-color:#585858;	
+	background-color:#585858;
 }
 section{
 	background-color: #848484;
@@ -9,22 +9,25 @@ section{
 	padding: 2%;
 	border-radius: 10px;
 	width: 50%;
-	position:absolute;
-	display:inline-block;
+	float:left;
+	margin:0% 0% 0% 2%;
+}
+section img{
+	width:45%;
 }
 p{
 	color: white;
 	font-size: 1.25em;
 }
 #sidebar{
+	position:fixed;
 	background-color: #848484;
 	border: 2px white solid;
 	padding: 5%;
+	border-radius:5px;
 	text-align:center;
-	width: 40%;
-	margin: 0% 0% 0% 0% ;
-	position:fixed;
-	display:inline-block;
+	width: 18%;
+	margin: 0% 0% 0% 60% ;
 }
 #sidebar p {
 	color: white;
@@ -41,3 +44,7 @@ p{
 #sidebar a:hover {
 	color:black;
 }
+#sidebar img{
+	width:45%
+}
+
