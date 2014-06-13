@@ -1,6 +1,7 @@
 body {
-	background-color:#585858;
-	max-width:100%;
+	background-image:url('leaf.jpg');
+	background-size:100%;
+	background-color:#585858;	
 }
 #sidebar{
 	background-color: #848484;
@@ -10,37 +11,28 @@ body {
 	width: 40%;
 	margin: 5% 10% 5% 25% ;
 }
-
 h1{
 	font-size: 1.500em;
 }
-
 body h1 {
 	font-size:1.70em;
 	font-family: Arial, sans-serif;
 }
-
 #sidebar p {
 	color: white;
 }
-
 #me {
 	color:white;
 }
-
 #sidebar a {
 	color:white;
 }
-
-
 #sidebar a:visited {
 	color:red;
 }
-
 #sidebar a:hover {
 	color:black;
 }
-
 img {
 	width:25%;
 }
@@ -51,7 +43,6 @@ img {
 		margin:auto;
 	}
 }
-
 /*for larger resolution*/
 @media screen and (min-width: 1000px){
 	#sidebar{

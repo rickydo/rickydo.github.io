@@ -1,14 +1,43 @@
-div{
+body {
+	background-image:url('images/leaf.jpg');
+	background-size:100%;
+	background-color:#585858;	
+}
+section{
 	background-color: #848484;
 	border: 2px white solid;
-	padding: 20px;
-	border-radius: 10px
-	text-align:center;
+	padding: 2%;
+	border-radius: 10px;
 	width: 50%;
-	margin-left: 400px;
+	position:absolute;
+	display:inline-block;
 }
-
 p{
 	color: white;
-	font-size: 18px
+	font-size: 1.25em;
+}
+#sidebar{
+	background-color: #848484;
+	border: 2px white solid;
+	padding: 5%;
+	text-align:center;
+	width: 40%;
+	margin: 0% 0% 0% 0% ;
+	position:fixed;
+	display:inline-block;
+}
+#sidebar p {
+	color: white;
+}
+#me {
+	color:white;
+}
+#sidebar a {
+	color:white;
+}
+#sidebar a:visited {
+	color:red;
+}
+#sidebar a:hover {
+	color:black;
 }
