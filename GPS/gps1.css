@@ -25,3 +25,12 @@ header{
     margin:0px;
     text-align:center;
 }
+footer{
+    border:2px solid red;
+}
+footer p{
+    font-size:1.25em;
+}
+h2{
+    text-align:center;
+}
