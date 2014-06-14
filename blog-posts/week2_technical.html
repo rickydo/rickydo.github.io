@@ -2,38 +2,41 @@
 	<html>
 		<head>
 			<title>Positioning</title>
-			<link rel="stylesheet" href="stylesheet.css"/>
+			<link rel="stylesheet" href="stylesheet/week2_technical.css"/>
 			<meta name="viewport" width="width-device, initial scale=1.0"/>
 		</head>
 		<body>
-			<section>
-				<header>
+			<header>
 					<h1>Positioning in CSS</h1>
 					<p>Elements on a website can be positioned behind, in front of, or next to by using CSS positioning properties: top, left, right, and bottom . Static positioning isn't mentioned too often with relative, absolute, or fixed positioning because it's the default positioning an element has when the element has no specified positioning.</p>
-				</header>
-				<div id = "relative">
+			</header>
+			<section>
+				<div class = "position">
 					<h1>Relative Positioning</h1>
 					<p>An element that is positioned "relative" to its normal position or flow has relative positioning. Take a look at figure 1 (not to scale). We moved the element to the left and towards the top by adjusting the left and top propertiesb y setting -20px to the top and left properties.</p>
-					<p><img src="images/relative.jpg" width=80%/></p>
+					<p><img src="images/relative.jpg" width=60%/></p>
 				</div>
-				<div id = "absolute">
+				<div class = "position">
 					<h1>Absolute Positioning</h1>
 					<p>Absolute positioned elements are always displayed in the same manner regardless of screen resolution nor normal position. They can also be positioned "relative" to its <strong>parent</strong> element. The element will show in the exact location each time it is loaded. One important thing to note here is absolute positioned elements can have the "z-index" property which allows overlapping elements. Elements with the higher z-index is displayed on top of the element with the lower index.</p>
-					<p><img src="images/absolute.jpg" width=80%/></p>
-					<p>Figure 1 shows the code for absolute positioning the element to the top left of the screen.</p>
-					<p><img src="images/absolute_2.jpg" width=80%/></p>
-					<p>Figure 2 shows the black div as the parent element to the green and blue divs. With the black div set to relative position, the child elements are set to absolute positioning so that they can be positioned relative to the black div. Green div is shown overlapping the blue div because it has a higher z-index.</p>
+					<p><img src="images/absolute.jpg" width=60%/></p>
+					<p>Figure 2 shows the code for absolute positioning the element to the top left of the screen.</p>
+					<p><img src="images/absolute_2.jpg" width=60%/></p>
+					<p>Figure 3 shows the black div as the parent element to the green and blue divs. With the black div set to relative position, the child elements are set to absolute positioning so that they can be positioned relative to the black div. Green div is shown overlapping the blue div because it has a higher z-index.</p>
 					</div>
-				<div id = "fixed">
+				<div class = "position">
 					<h1>Fixed Positioning</h1>
 					<p>An element with fixed positioning has a permanent position in the window screen. This means even when you scroll up or down, all other elements that don't have a fixed position move but the fixed element doesn't.</p>
-					<p><img src="images/fixed.jpg" width=80%/></p>
+					<p><img src="images/fixed.jpg" width=60%/></p>
+					<p>In figure 4 the content div scrolls up and down but the sidebar does not move regardless of how much scrolling you do.</p>
 				</div>
-				<div id = "sidebar">
+				
+			</section>
+			<div id = "sidebar">
 					<h1 id = "me">About Me</h1>
 					<img src = "images/me.jpg"/>
 					<p> Hi there I'm Ricky and a novice coder with a will to learn. You couldn't tell by my picture or in real life that I am several years older than I look, oh the gift/curse of being a small asian. Feel free to check out my rants and rambles. </p>
+					<p><a href="../index.html">Back to Index</a></p>
 				</div>
-			</section>
 		</body>
 	</html>

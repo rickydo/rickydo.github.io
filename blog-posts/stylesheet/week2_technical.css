@@ -1,0 +1,35 @@
+body{
+	background-color:#BDBDBD;
+}
+section{
+	position:relative;
+	width:100%;
+}
+header {
+	margin:auto;
+	text-align:center;
+	background-color:#A4A4A4
+}
+h1 {
+	color:white;
+	text-align:center;
+}
+p{
+	color:white;
+	font-size:1.2em;
+}
+.position{
+	background-color:#A4A4A4;
+	float:left;
+	width:70%;
+}
+img{
+	display:block;
+	margin:auto;
+}
+#sidebar{
+	background-color:#A4A4A4;
+	position:fixed;
+	right:0.75%;
+	width:28%;
+}
