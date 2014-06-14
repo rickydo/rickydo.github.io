@@ -52,5 +52,6 @@ a:hover{
 	}
 	#sidebar{
 		width:100%;
+		position:static;
 	}
 }
