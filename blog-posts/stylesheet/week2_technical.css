@@ -1,4 +1,6 @@
 body{
+	background-image:url('../images/leaf.jpg');
+	background-size:100%;
 	background-color:#BDBDBD;
 }
 section{
@@ -22,6 +24,7 @@ p{
 	background-color:#A4A4A4;
 	float:left;
 	width:70%;
+	padding:1%;
 }
 img{
 	display:block;
@@ -31,5 +34,23 @@ img{
 	background-color:#A4A4A4;
 	position:fixed;
 	right:0.75%;
-	width:28%;
+	width:25%;
+	padding:1%;
+}
+a {
+	color:#0B610B;
+	text-decoration:none;
+	text-align:center;
+}
+a:hover{
+	color:black;
+}
+
+@media screen and (max-width:480px){
+	.position{
+		width:100%;
+	}
+	#sidebar{
+		width:100%;
+	}
 }
