@@ -8,41 +8,37 @@ body {
 	background-color:#BDBDBD;
 }
 
-div {
-	border-radius:5px;
-	border:1px solid white;
-	padding:0.5%;
+section {
+	width:100%;
+	position:relative;
 }
 
 #content{
-	width:80%;
-	float:left;
-	position:relative
-	display:block;
+	width:50%;
+	position:absolute;
+	left:7%;
+	top:2%;
+	border:4px solid white;
+	padding:2%;
 }
 #content img{
 	width:65%;
 }
 #sidebar{
-	width:10%;
+	width:25%;
 	text-align:center;
-	float:right;
 	position:fixed;
-	display:inline-block;
+	top:1%;
+	right:6%;
+	padding:2%;
+	border:4px solid white;
 }
-
-#sidebar img{
-	width:50%;
-}
-#sidebar a {
-	color:white;
-}
-
-
 #sidebar a:visited {
 	color:red;
 }
-
+#sidebar a{
+	color:white;
+}
 #sidebar a:hover {
 	color:black;
 }
@@ -50,19 +46,23 @@ div {
 /*for lower resolution*/
 @media screen and (max-width: 480px){
 	#sidebar {
-		width:100%;
+		width:80%;
 		position:relative;
-		display:block;
+		left:7%;
 	}
 	#content {
-		width:100%;
+		width:80%;
+		position: relative;
+		left:7%;	
 	}	
 }
 
 /*for higher resolution*/
 @media screen and (min-width:1000px){
 	#content{
-		width:70%;
+		width:60%;
+		position:absolute;
+		left:3%;
 	}
 	#sidebar{
 		width:20%;
