@@ -1,54 +1,56 @@
-body {
-	background-image:url('leaf.jpg');
-	background-size:100%;
-	background-color:#585858;	
+html {
+	background-color:#1C1C1C;
+	background: url('http://www.wallsave.com/wallpapers/1366x768//77298/black-and-white-tree-in-water-sky-free-hd-77298.jpg') no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 }
-#sidebar{
-	background-color: #848484;
-	border: 2px white solid;
-	padding: 5%;
-	text-align:center;
-	width: 40%;
-	margin: 5% 10% 5% 25% ;
-}
-h1{
-	font-size: 1.500em;
-}
-body h1 {
-	font-size:1.70em;
-	font-family: Arial, sans-serif;
-}
-#sidebar p {
-	color: white;
-}
-#me {
-	color:white;
-}
-#sidebar a {
-	color:white;
-}
-#sidebar a:visited {
-	color:red;
-}
-#sidebar a:hover {
-	color:black;
-}
-img {
+section{
 	width:25%;
+	border: 2px #BDBDBD solid;
+	position:relative;
+	margin-left:5%;
+	margin-top: 5%;
+	border-radius:5pt;
+}
+#info{
+	width:80%;
+	padding-left:5%;
+	padding-top:5%;
+}
+img{
+	margin-left:38%;
+}
+#links{
+	padding-left:15%;
+}
+
+#links a{
+	text-decoration:none;
+	color:#BDBDBD;
+}
+#links a:hover{
+	color:white;
+}
+#links a:visited{
+	color:#8A0829;
 }
 /*for smaller resolution*/
 @media screen and (max-width:480px){
-	#sidebar {
+	section {
 		width:100%;
 		margin:auto;
 		padding:1%;
 		border:1px white solid;
 	}
+	#info{
+		color:white;
+	}
 }
 /*for larger resolution*/
 @media screen and (min-width: 1000px){
-	#sidebar{
-		width:40%;
-		margin: auto;
+	#links{
+		padding-left:25%
 	}
 }
