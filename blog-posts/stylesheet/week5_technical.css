@@ -20,6 +20,7 @@ p{
 	color:white;
 	font-size:1.2em;
 	text-align:left;
+
 }
 #content{
 	background-color:#A4A4A4;
@@ -39,7 +40,8 @@ img{
 	padding:1%;
 	border-radius:5pt;
 }
-a {
+
+#sidebar a {
 	color:#0B610B;
 	text-decoration:none;
 	text-align:center;
