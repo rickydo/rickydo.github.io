@@ -36,6 +36,9 @@ img{
 #links a:visited{
 	color:#8A0829;
 }
+p {
+	color:white;
+}
 /*for smaller resolution*/
 @media screen and (max-width:480px){
 	section {

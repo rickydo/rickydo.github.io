@@ -24,7 +24,8 @@ p{
 }
 #content{
 	background-color:#A4A4A4;
-	float:left;
+	position:absolute;
+	left:10%;
 	width:70%;
 	padding:1%;
 }
@@ -35,8 +36,8 @@ img{
 #sidebar{
 	background-color:#A4A4A4;
 	position:fixed;
-	right:7%;
-	width:10%;
+	right:3%;
+	width:13%;
 	padding:1%;
 	border-radius:5pt;
 }
@@ -44,6 +45,8 @@ img{
 #sidebar a {
 	color:#0B610B;
 	text-decoration:none;
+}
+#sidebar p {
 	text-align:center;
 }
 a:hover{
@@ -52,10 +55,12 @@ a:hover{
 
 @media screen and (max-width:480px){
 	#content{
-		width:100%;
+		width:95%;
+		top:120%;
+		left:1.5%;
 	}
 	#sidebar{
-		width:100%;
+		width:98%;
 		position:static;
 	}
 }
