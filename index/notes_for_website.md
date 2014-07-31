@@ -18,4 +18,4 @@ A list of things to do:
 -maybe add an animation to scrolling over links
 
 General template of new layout (subject to change)
-![release0](https://github.com/rickydo/phase-0-unit-3/raw/master/week-7/imgs/one_to_many.png)
+![release0](https://github.com/rickydo/rickydo.github.io/raw/master/index/wireframe.png)
