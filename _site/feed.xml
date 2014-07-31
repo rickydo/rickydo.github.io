@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>RickyD</title>
-    <description>Out of college I was on track to medical school but the MCAT fought me pretty hard and I spent a year as a QA/QC Manager at a Houston beverage bottling company doing all sorts of manual labor and compliance work. It was only in the real world did I realize that the world runs on credit and software manages credit. You control the software, you control credit flow.</description>
+    <description>Out of college I was on track to medical school but the MCAT fought me pretty hard and I spent a year as a QA/QC Manager at a Houston beverage bottling company doing all sorts of manual labor and compliance work. It was only in the real world did I realize that the world runs on credit and software. I don&#39;t have the credit now but I&#39;m fully capable of learning how to make it by creating software.</description>
     <link>rickydo.github.io/</link>
     <atom:link href="rickydo.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 31 Jul 2014 18:10:09 -0500</pubDate>
-    <lastBuildDate>Thu, 31 Jul 2014 18:10:09 -0500</lastBuildDate>
+    <pubDate>Thu, 31 Jul 2014 18:28:18 -0500</pubDate>
+    <lastBuildDate>Thu, 31 Jul 2014 18:28:18 -0500</lastBuildDate>
     <generator>Jekyll v2.2.0</generator>
     
       <item>

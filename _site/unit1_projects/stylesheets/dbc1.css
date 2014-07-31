@@ -1,0 +1,31 @@
+body
+{
+	background-color: #A9D0F5;
+}
+
+h1 
+{
+	font-family: Verdana, serif;
+	color:#FFFFFF;
+}
+
+#red
+{
+	color: #DF0101;
+}
+
+#yellow
+{
+	border: 1px dotted black;
+	color: #F7FE2E;
+}
+
+.white
+{
+	color: #E6E6E6;
+}
+
+h2
+{
+	font-family: Tahoma, Verdana;
+}
