@@ -1,0 +1,66 @@
+body {
+	background-image:url('../images/leaf.jpg');
+	background-size:100%;
+	background-color:#585858;
+}
+section{
+	width: 100%;
+	position:relative;
+}
+section img{
+	width:45%;
+}
+p{
+	color: white;
+	font-size: 1.25em;
+}
+#sidebar{
+	position:fixed;
+	right:6%;
+	background-color: #848484;
+	border: 2px white solid;
+	padding: 5%;
+	border-radius:5px;
+	text-align:center;
+	width: 15%;
+}
+#sidebar p {
+	color: white;
+}
+#me {
+	color:white;
+}
+#sidebar a {
+	color:white;
+}
+#sidebar a:visited {
+	color:red;
+}
+#sidebar a:hover {
+	color:black;
+}
+#sidebar img{
+	width:45%
+}
+#content{
+	position:absolute;
+	left:7%;
+	background-color: #848484;
+	border: 2px white solid;
+	padding: 5%;
+	border-radius:5px;
+	width:50%;
+}
+@media screen and (max-width:480px){
+	#sidebar{
+		width:80%;
+		position:relative;
+		top:5%;
+		left:5%;
+	}
+	#content{
+		width:80%;
+		position:relative;
+		left:5%;
+	}
+}

@@ -1,0 +1,37 @@
+header{
+    border:2px solid red;
+    width:35%;
+    margin:auto;
+    text-align:center;
+}
+#cities {
+    border:2px solid black;
+    height:500px;
+    padding:0px;
+}
+#NYC{
+    border:2px solid red;
+    width:49%;
+    float:left;
+    height:100%;
+    margin:0px;
+    text-align:center;
+}
+#Houston{
+    border:2px solid red;
+    width:49%;
+    float:right;
+    height:100%;
+    margin:0px;
+    text-align:center;
+}
+footer{
+    border:2px solid red;
+    clear:both;
+}
+footer p{
+    font-size:1.25em;
+}
+h2{
+    text-align:center;
+}

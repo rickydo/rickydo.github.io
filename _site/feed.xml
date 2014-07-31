@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>RickyD</title>
-    <description>About me</description>
-    <link>rickydo.github.iorickydo.github.io/</link>
-    <atom:link href="rickydo.github.iorickydo.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 31 Jul 2014 17:52:52 -0500</pubDate>
-    <lastBuildDate>Thu, 31 Jul 2014 17:52:52 -0500</lastBuildDate>
+    <description>Out of college I was on track to medical school but the MCAT fought me pretty hard and I spent a year as a QA/QC Manager at a Houston beverage bottling company doing all sorts of manual labor and compliance work. It was only in the real world did I realize that the world runs on credit and software manages credit. You control the software, you control credit flow.</description>
+    <link>rickydo.github.io/</link>
+    <atom:link href="rickydo.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Thu, 31 Jul 2014 18:10:09 -0500</pubDate>
+    <lastBuildDate>Thu, 31 Jul 2014 18:10:09 -0500</lastBuildDate>
     <generator>Jekyll v2.2.0</generator>
     
       <item>
@@ -26,8 +26,8 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 
 </description>
         <pubDate>Thu, 31 Jul 2014 11:48:48 -0500</pubDate>
-        <link>rickydo.github.iorickydo.github.io/jekyll/update/2014/07/31/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">rickydo.github.iorickydo.github.io/jekyll/update/2014/07/31/welcome-to-jekyll/</guid>
+        <link>rickydo.github.io/jekyll/update/2014/07/31/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">rickydo.github.io/jekyll/update/2014/07/31/welcome-to-jekyll/</guid>
         
         
         <category>jekyll</category>

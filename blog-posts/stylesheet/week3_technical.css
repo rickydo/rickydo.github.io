@@ -1,0 +1,58 @@
+body{
+	background-image:url('../images/leaf.jpg');
+	background-size:100%;
+	background-color:#BDBDBD;
+}
+section{
+	position:relative;
+	width:100%;
+}
+header {
+	margin:auto;
+	text-align:center;
+	background-color:#A4A4A4
+}
+h1 {
+	color:white;
+	text-align:center;
+}
+p{
+	color:white;
+	font-size:1.2em;
+	text-align:center;
+}
+#content{
+	background-color:#A4A4A4;
+	float:left;
+	width:70%;
+	padding:1%;
+}
+img{
+	display:block;
+	margin:auto;
+}
+#sidebar{
+	background-color:#A4A4A4;
+	position:fixed;
+	right:0.75%;
+	width:25%;
+	padding:1%;
+}
+a {
+	color:#0B610B;
+	text-decoration:none;
+	text-align:center;
+}
+a:hover{
+	color:black;
+}
+
+@media screen and (max-width:480px){
+	#content{
+		width:100%;
+	}
+	#sidebar{
+		width:100%;
+		position:static;
+	}
+}

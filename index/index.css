@@ -1,0 +1,59 @@
+html {
+	background-color:#1C1C1C;
+	background: url('http://www.wallsave.com/wallpapers/1366x768//77298/black-and-white-tree-in-water-sky-free-hd-77298.jpg') no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+section{
+	width:25%;
+	border: 2px #BDBDBD solid;
+	position:relative;
+	margin-left:5%;
+	margin-top: 5%;
+	border-radius:5pt;
+}
+#info{
+	width:80%;
+	padding-left:5%;
+	padding-top:5%;
+}
+img{
+	margin-left:38%;
+}
+#links{
+	padding-left:15%;
+}
+
+#links a{
+	text-decoration:none;
+	color:#BDBDBD;
+}
+#links a:hover{
+	color:white;
+}
+#links a:visited{
+	color:#8A0829;
+}
+p {
+	color:white;
+}
+/*for smaller resolution*/
+@media screen and (max-width:480px){
+	section {
+		width:100%;
+		margin:auto;
+		padding:1%;
+		border:1px white solid;
+	}
+	#info{
+		color:white;
+	}
+}
+/*for larger resolution*/
+@media screen and (min-width: 1000px){
+	#links{
+		padding-left:25%
+	}
+}
