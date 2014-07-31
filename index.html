@@ -1,39 +1,20 @@
-<!DOCTYPE HTML>
-<html>
-<head><title>Welcome to My Index</title>
-<link rel = "stylesheet" href = "index/index.css"/>
-<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
-</head>
-	<body>
-		<section>
-			<div id = "info">
-				<img src = "index/me.jpg" width=35%/>
-				<p> Hi there I'm Ricky. I'm an amateur coder but I'm willing to learn as much as I can for a better understanding and more efficient coding of web applications. </p>
-				<h1>Contact Info:</h1>
-				<p>Email: dop@stthom.edu</p>
-			</div>
-			<div id = "links">
-			<h1>Cultural Blogs:</h1>
-				<p><a href = "blog-posts/week1_cultural.html">Kitchen VS Table</a></p>
-				<p><a href = "blog-posts/week3_cultural.html">How I think</a></p>
-				<p><a href = "blog-posts/week4_cultural_blog.html">Illegal Apps?</a></p>
-				<p><a href = "blog-posts/week5_cultural.html">Pairing and Feedback</a></p>
-				<p><a href = "blog-posts/week6_cultural_blog.html">Stereotype Threat</a></p>	
-				<p><a href = "blog-posts/week7_cultural.html">Some of My Values</a></p>
-				<p><a href = "blog-posts/week8_cultural_blog.html">Personal Conflict</a></p>
-			<h1>Technical Blogs:</h1>
-				<p><a href="blog-posts/week1_technical.html">My Most Frequented Websites</a></p>
-				<p><a href="blog-posts/week2_technical.html">CSS Positioning</a></p>
-				<p><a href="blog-posts/week3_technical.html">What is Javascript?</a></p>
-				<p><a href="blog-posts/week4_technical.html">Loopy Loops</a></p>
-				<p><a href="blog-posts/week5_technical.html">Ruby Classes</a></p>
-				<p><a href="blog-posts/week6_technical.html">Blocks, Procs, and Lambdas</a></p>
-				<p><a href = "blog-posts/week7_technical.html">SQL Injection</a></p>
-				<p><a href = "blog-posts/week8_technical.html">What is Rails?</a></p>
-			<h1>..And More</h1>
-				<p><a href ="unit1_projects/wireframe_sites.html">Wireframe Sites</a></p>
-				<p><a href ="gps/gps_1.html">GPS1 session</a></p>
-			</div>
-		</section>
-	</body>
-</html>
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1>Posts</h1>
+
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
