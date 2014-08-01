@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "A Little Ruby"
+date:   2014-07-04 16:48:48
+categories: technical
+---
+<h1>A Snippet into Ruby Classes</h1>
+	<h2>When and Why Should I use classes?</h2>
+		<p>One question which kept simmering in my head while working on this week's challenges was "when do you use Ruby classes?". Well a class is necessary when instantiation is required or when the functionality of the code needs top keep track of state. Think of class as a factory manufacturing more than one object. If just wanted one object you wouldn't use class. Let's go through an example of class Car.</p>
+	<h2>So, How do I create a class?</h2>
+		<p>It's as simple as typing "class", a capitalized name, and closing it with "end"</p>
+			<img src = "/resources/create_class.jpg" width = 50%/>
+	<h2>What's a Constructor?</h2>
+		<p>When creating a class, it's most likely you will want the instances of the class to have some properties. You can do this by creating a constructor at the top of the class code which utilizes "initialize" and takes a number of arguments for the instance of class. From our Car class example we can now initialize Car make, model, and year.</p> 
+			<img src = "/resources/create_constructor.jpg" width = 50%/>
+		<p>A shortcut for this would be to simply call "attr_accessor" and the instance variable as a symbol( with a colon in front ). This way you can cut down on the lines of code as well as save time.</p>
+			<img src = "/resources/create_constructor2.jpg" width = 50%/>
+			<img src = "/resources/example.jpg" width = 50%/>
+	<h2>Instance Methods</h2>
+		<p>Create an instance method as you would normally in Ruby by defining a method name, the code you want the method to execute, and close it.</p>
+			<img src = "/resources/create_method.jpg" width = 50%/>
+	<h2>Creating Class Methods and Variables</h2>
+		<p>Class methods and properties are variables and functions inaccessible to instances of the class. They are exclusive to the class itself. So if we wanted to know the number of Car instances we created we would set the count with two "@" symbols declaring it as a class variable equal to zero. To increment this variable with the number of instances we put it within our initialize method. We also have to create our class method. By calling self.count we tell Ruby to count how many instances of Car were created.</p>
+			<img src = "/resources/initialize.jpg" width = 50% />
+	<h2>Data Structures: Hashes and Arrays</h2>
+		<p> We can use hashes and arrays to store/access information in classes. Let's use our same class Car and add a nested hash. Now we want a report of owners and details about their car. We can iterate through the nested hash using "each_key" method, create an instance and access the hash using the hash name, the owner name in brackets (which is the key of the inner hash), and then we call the key within that hash "make" in square brackets. We repeat this for the properties make, model, year. Don't forget to close the iteration!</p>
+			<img src = "/resources/hash.jpg" width = 50%/>
+ 
+			

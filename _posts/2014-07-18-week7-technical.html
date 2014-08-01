@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "SQL Injection"
+date:   2014-07-18 16:48:48
+categories: technical
+---
+<h1>What is SQL?</h1>
+	<p>SQL is short for Structured Query Language. It is a programming language for querying (fancy word for accessing) and managing databases. SQL is has its own syntax and different database systems some of which include Microsoft Access, SQLite, MySQL, and PostgreSQL. Each of these databases have individual variations of SQL. SQL is essential to web applications that require data storing/access.</p>
+	<h2>SQL Injection</h2>
+		<p>SQL injection primarily involves leaving "windows" open in code for hackers to retrieve data they shouldn't have access to. in the context of Ruby, when strings were not properly closed off with quote marks it led to errors. However, when working with SQL these strings are the open windows in website's databases. The hacks occur whenever the program or website receives input from the user without sanitizing it. For example, if we had a website connected to a database of customers' credit card information the hacker could inject his own SQL statement into the query and take the information he or she wanted. In the figure below a user would input between the quotes in the first line to enter information.</p>
+			<p><img src = "images/sql_injection.png" width = 60% ></p>
+		<p>In lines 3-4 a hacker with malicious intentions has inserted his own query into the field and is now taking all information in the customer_credit_card_info table. To sanitize this code we can add escaping backslashes before every first quote mark from the user like in lines 6-7. Now, the query the hacker has inputted returns nothing.</p>
+		<p> The SQLite3 gem for Ruby has a method for handling the quoted input by using '?' placeholder in the query and passing extra values to the 'execute' method. The number of placeholders must match the number of arguments. This prevents a hacker from adding his own number of arguments in the query. </p>
+		<p>There are many other methods to prevent SQL injection some of which include the use of Prepared Statements or parametized queries, use of stored procedures, escaping all user supplied input which we discussed above, enforcing least privilege, and white list input validation. Using prepared statements are simple to write and understand. Parametizing queries require SQL code to be defined first and then pass each parameter into the query later. This allows the database to differientiate between code and data regardless od user input. Prepared statements prevent the hacker from changing the intention of the query. For example, if a hacker wanted to input in 'Rick' or '1'='1 the parametized query would deny the hackers' malicious intention and would literally look for the string or for '1'='1. For the sake of blog length you can find the other methods explained in great detail in the links provided below. 
+	<h2>For additional information on SQL injection and its prevention methods check these websites out! </h2>
+		<p><a href = "http://en.wikipedia.org/wiki/SQL_injection">SQL Injection via Wikipedia</a></p>
+		<p><a href = "http://ruby.bastardsbook.com/chapters/sql/">ruby.bastardsbook.com</a></p>
+ 		<p><a href = "http://ruby.bastardsbook.com/chapters/sql/#placeholders-sqlite-gem">about placeholders</a></p>
+ 		<p><a href = "https://www.owasp.org/index.php/SQL_Injection_Prevention_Cheat_Sheet">SQL Injection prevention methods</a></p>
+
+				

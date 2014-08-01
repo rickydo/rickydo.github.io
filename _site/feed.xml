@@ -5,80 +5,270 @@
     <description>Out of college I was on track to medical school but the MCAT fought me pretty hard and I spent a year as a QA/QC Manager at a Houston beverage bottling company doing all sorts of manual labor and compliance work. It was only in the real world did I realize that the world runs on credit and software. I don&#39;t have the credit now but I&#39;m fully capable of learning how to make it by creating software.</description>
     <link>rickydo.github.io/</link>
     <atom:link href="rickydo.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 31 Jul 2014 18:34:31 -0500</pubDate>
-    <lastBuildDate>Thu, 31 Jul 2014 18:34:31 -0500</lastBuildDate>
+    <pubDate>Fri, 01 Aug 2014 10:05:41 -0500</pubDate>
+    <lastBuildDate>Fri, 01 Aug 2014 10:05:41 -0500</lastBuildDate>
     <generator>Jekyll v2.2.0</generator>
     
       <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
-To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
+        <title>How to Ask for Help</title>
+        <description>&lt;h1&gt;How to Ask Good Questions&lt;/h1&gt;
+	&lt;h2&gt;Experienced Questioning&lt;/h2&gt;
+		&lt;p&gt;I don&#39;t always ask questions online but when I do I try to be as specific as possible &lt;em&gt;AFTER&lt;/em&gt; I feel like my research hasn&#39;t answered what I&#39;m curious about. Fortunately, this has mostly worked for me because usually it bugs people when they see the same question asked countlessly or without enough information to answer the question properly. Previously mentioned in my other blog posts, I am members of several car forums and the worst thing about these forums, besides the numerous internet trolls, is that members are ALWAYS asking the same questions which have been answered over and over again. You need to do some research people! If you have a question and you are especially new to the subject, your question has most likely been asked AND answered.&lt;/p&gt;
+		&lt;p&gt;Although I do agree that sometimes google searching can&#39;t find you an answer it may be because of how you worded your search or you haven&#39;t used the correct keywords. So before you contemplate about asking a question and being ridiculed for asking a previously answered question, try rewording your question. Look at your original google search and check if it is comprehendible. If you asked &quot;My car is making a clicking noise in front, what is it?&quot;, chances are google will find some answers but most likely will give you the answers you don&#39;t want. Use more specific details such as &quot;car makes clicking noise when I turn the steering wheel and move forward&quot;. Google won&#39;t care if your search isn&#39;t a complete sentence because it utilizes keywords in its search. You will more likely get the answer you want with this google search. A clicking noise made when turning in a vehicle is most likely a worn out constant velocity (CV) joint by the way.&lt;/p&gt;
+	&lt;h2&gt;Tips on Asking Questions in Communities/Forums&lt;/h2&gt;
+		&lt;ol&gt;
+			&lt;li&gt;Use a Title Which Summarizes the Problem&lt;/li&gt;
+				&lt;p&gt;The title of the question is FIRST thing people see. If it can&#39;t summarize the problem you are having well enough they will either pass it up or ask you to clarify what you meant if the rest of question doesn&#39;t help them help you. The title should hold the main idea of your question. If you have trouble coming up with a good title then try writing the title last after you have given the rest of the question.&lt;/p&gt;
+			&lt;li&gt;Introduce the Problem&lt;/li&gt;
+				&lt;p&gt;In the body of the question, expand on the title. Do this by including the problems you are encountering and why you weren&#39;t able to solve it yourself. Be informative as possible in how you have tackled the problem with relevant details and possibly code so that they can reproduce the problem you are having. That way they can easily and better answer your question.
+			&lt;li&gt;Include Tags for Your Question&lt;/li&gt;
+				&lt;p&gt;If you are in a community like stackoverflow.com, be sure to include information like what language, API, and library you are having problems with in the form of tags. This will definitely help others help you.&lt;/p&gt; 
+			&lt;li&gt;Proofread Your Question and Then Post&lt;/li&gt;
+				&lt;p&gt;Review your question. Make sure that there aren&#39;t any typos, missing words, or incorrect usage of words. Proofreading will make the question more clear. Nobody wants to read a question and not know what you are trying to say. It makes helping more difficult and may result in receiving no help. &lt;/p&gt;
+			&lt;li&gt;Respond to Feedback&lt;/li&gt;
+				&lt;p&gt;When people leave feedback make sure to answer them because it may be because your question needs additional information. Sometimes they may answer your question but they may not answer it the way you want so try clarifying your question to your specific needs. Regardless of receiving the answer you want or not, remember to thank them for their time and advice!&lt;/p&gt;
+		&lt;/ol&gt;
+	&lt;h2&gt;What Have I Asked?&lt;/h2&gt;
+		&lt;p&gt;Well I haven&#39;t asked too many questions on the August Suns Community but when I have, I received help for them. The following is one question that I asked in the community: 
+			&lt;br&gt; &lt;p&gt;&lt;/p&gt;
+						What did you guys use to reindent the HTML/CSS? I&#39;ve tried the sublime 2 reindent method but that changes nothing for me when I &quot;copy as html&quot; and save the file as html. I&#39;ve also tried installing html/css/js prettify but the package controller was also giving me problems during installation.
+			&lt;/br&gt; &lt;p&gt;&lt;/p&gt;
+		&lt;p&gt;I think is a good question. I didn&#39;t necessarily have a title but I was able to get the main idea across in the first sentence. I provided additional information including how I&#39;ve tried solving it. However, I think I could be more clear on the exact problems I was having when installing the package controller because I ended up trying to install the package controller and it worked the 3rd time around. It may not have been the perfect way to ask the question but I was able to receive help from peers in solving my problem. &lt;/p&gt;
+	&lt;h2&gt;How Others Have Asked&lt;/h2&gt;
+		&lt;p&gt;Here&#39;s a question a peer asked in the community:&lt;/p&gt; &lt;p&gt;&lt;/p&gt; 
+			&lt;br&gt;Has anyone tried the tally votes challenge for javascript yet?
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+			Elena and I paired for this, and got stuck on figuring out how to add a new property and value to an empty object, and to increase that every time the same object is accessed.  But we can&#39;t even add the object through a variable; we get a unexpected token error.
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Thu, 31 Jul 2014 11:48:48 -0500</pubDate>
-        <link>rickydo.github.io/jekyll/update/2014/07/31/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">rickydo.github.io/jekyll/update/2014/07/31/welcome-to-jekyll/</guid>
+			Let me know if any of this makes sense! &lt;/br&gt;
+		&lt;p&gt;The first sentence gets the main idea across or at least grabs the attention of those who have already finished the tally challenge. I the body of the question he states what they are stuck on and specifically details the problem with the type of error. I believe this is also a good question because they were able to receive help from those who have finished the challenge. &lt;/p&gt;</description>
+        <pubDate>Tue, 29 Jul 2014 11:48:48 -0500</pubDate>
+        <link>rickydo.github.io/cultural/2014/07/29/week9-cultural-blog/</link>
+        <guid isPermaLink="true">rickydo.github.io/cultural/2014/07/29/week9-cultural-blog/</guid>
         
         
-        <category>jekyll</category>
-        
-        <category>update</category>
+        <category>cultural</category>
         
       </item>
     
       <item>
-        <title>Week1_technical</title>
-        <description>&lt;p&gt;&amp;lt;!DOCTYPE html&amp;gt;
-	&amp;lt;html&amp;gt;
-		&amp;lt;head&amp;gt;
-			&lt;title&gt;Blogs by Ricky&lt;/title&gt;
-			&lt;link rel=&quot;stylesheet&quot; href=&quot;stylesheet\stylesheet.css&quot; /&gt;
-			&lt;meta name=&quot;viewport&quot; content=&quot;width=width-device. initial-scale=1.0&quot; /&gt;
-		&amp;lt;/head&amp;gt;
-		&amp;lt;body&amp;gt;
-		&amp;lt;section&amp;gt;
-			&amp;lt;div id = &quot;content&quot;&amp;gt;
-				&amp;lt;h1&amp;gt; My 3 Most Visited Websites &amp;lt;/h1&amp;gt;
-				&amp;lt;h2&amp;gt;&lt;a href=&quot;newcelica.org&quot; target=&quot;_blank&quot;&gt;Newcelica.org&lt;/a&gt;&amp;lt;/h2&amp;gt;
-				&amp;lt;p&amp;gt;This is one of my favorite sites because I own a Celica. I do all of the repairs, maintenance, and modifications myself. I have a few other automotive forums which I am a member of but I frequent this one the most because of the quantity and quality of information it provides. I think the most eye catching part of the homepage is the image in the center which is a calendar rotation of members’ rides. This image, however, is not the most important part but the link to the forums is. If it was my first time visiting this webpage I would think the homepage is overwhelming with numerous links and other data. I wouldn’t say it is streamlined but is is very informative but basic with a few colors. It is more straight to the point than elegant and it has a good amount of “white” space between the divs. The website is simple and easy to navigate if you know where you need or want to go. This automotive forum like many others are for users looking for parts, discussion, and advice in tuning, repairs, and maintenance. It is both serious and silly in addition to having a separate section for trolling. Visually, the site’s functions and style is the same throughout any section or link you access. As previously stated, there are a bunch of links that provide navigation to certain topics or areas you may be interested. It is even easier to access information with a built-in google seach for the forums. I feel bored after being on the site for while, well because I’m on it all the time creeping for aftermarket parts members sell but I find the site to be visually pleasing. The site does sell it’s own merchandise such as newcelica stickers and shirts but I have not purchased these.&amp;lt;/p&amp;gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;			&amp;lt;h2&amp;gt;&amp;lt;a href =&quot;netflix.com&quot;&amp;gt;Netflix&amp;lt;/a&amp;gt;&amp;lt;/h2&amp;gt;
-			&amp;lt;img src=&quot;images/netflix.jpg&quot;/&amp;gt;
-			&amp;lt;p&amp;gt;This has to be my favorite website because the only way TV and movies should be watched is without previews and commercials especially if you have to pay for it! I don&#39;t think there is a single area where my eyes would be focused on other than the huge selection of tv shows and movies. Netflix has a visually simple, colorful layout(because of the images). Everything is evenly spaced in scrolling lists. it isn&#39;t pretty but it isn&#39;t ugly either, a plain layout. Netflix solves the problems of going to redbox, catching up on past tv show seasons, and is a source of entertainment. Netflix content is specific to the user&#39;s preferences but also has popular lists. I think sometimes netflix has jokes because sometimes it would prefer a title that I would never watch. The content in this website, like most websites, is fundamental to its success so I understand the simplicity of its visual design. The creators want you to focus on the content not how elegant or creative the website is. It is incredibly simple to find what you are looking for with the search function as well as listing movies by genre and suggestions. It isn&#39;t uncommon to be bored with the content of the site because it doesn&#39;t have every movie or tv show you want to watch. The website sells itself! If you like it, continue to pay for its monthly service.&amp;lt;/p&amp;gt;
-			
-			&amp;lt;h2&amp;gt;&amp;lt;a href = &quot;yahoo.com&quot;&amp;gt;Yahoo&amp;lt;/a&amp;gt;&amp;lt;/h2&amp;gt;
-			&amp;lt;p&amp;gt;What don&#39;t I use Yahoo for? I use it for the mail service, weather, and basically my only source of news and internet trolls(from article comments). My eyes are always drawn to the news scroll from any distance probably because it is in the top center. The website is well informative, has many navigational links, a search function, in a plain and well spaced layout. It has a few colors, organized, aligned in the center of the browser, simple, and bright white. Yahoo usually has current news and weather and even though some articles are terrible its content remains professional and sometimes newsworthy. Their news video clips on the other hand, are super terrible and try to hard to be funny. Yahoo has it&#39;s serious and silly parts but what&#39;s life without a little humor? Boring. It is very easy to find what you want because every article has it own link and if you want another topic you just click a different link on the left. I do get bored of the website after skimming for anything newsworthy. Maybe I haven&#39;t ventured far enough on the website but I don&#39;t think the website sells anything.&amp;lt;/p&amp;gt;
-		&amp;lt;/div&amp;gt;
-
-		&amp;lt;div id = &quot;sidebar&quot;&amp;gt;
-			&amp;lt;h1 id = &quot;me&quot;&amp;gt;About Me&amp;lt;/h1&amp;gt;
-			&amp;lt;img src = &quot;images/me.jpg&quot; width=40%/&amp;gt;
-			&amp;lt;p&amp;gt; Hi there I&#39;m Ricky and a novice coder with a will to learn. You couldn&#39;t tell by my picture or in real life that I am several years older than I look, oh the gift/curse of being a small asian. Feel free to check out my rants and rambles. &amp;lt;/p&amp;gt;
-			&amp;lt;a href=&quot;../index.html&quot;&amp;gt;Back to Index&amp;lt;/a&amp;gt;
-			&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;
-			&amp;lt;a href =&quot;week1_cultural.html&quot;&amp;gt;Cultural Blog&amp;lt;/a&amp;gt;
-			&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;
-			&amp;lt;a href =&quot;../unit1_projects/wireframe_sites.html&quot;&amp;gt;Wireframe Sites&amp;lt;/a&amp;gt;
-		&amp;lt;/div&amp;gt;
-	&amp;lt;/section&amp;gt;
-	&amp;lt;/body&amp;gt;
-&amp;lt;/html&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-        <pubDate>Thu, 31 Jul 2014 00:00:00 -0500</pubDate>
-        <link>rickydo.github.io/2014/07/31/week1_technical/</link>
-        <guid isPermaLink="true">rickydo.github.io/2014/07/31/week1_technical/</guid>
+        <title>Ruby on Rails</title>
+        <description>&lt;h1&gt;Rails&lt;/h1&gt;
+	&lt;p&gt;Ruby and Rails are not the same thing. Ruby is the programming language.Rails is a Rubygem or package library which is installed via terminal or command line.  Rails is the web application framework coded &lt;em&gt;using&lt;/em&gt; Ruby. Rails makes programming web applications easier and more fun by laying the groundwork that every developer may need to begin coding. As a result, programmers are able to write less code. However because Rails assumes what a developer needs it makes the assumption that there is a best way and discourages all others. Learning the Rails will increase productivity and includes two very important guidelines. One of these guidelines is to keep your code DRY without repeats. The other guideline is to prefer convention over configuration. In other words, code the way Rails wants you to code a web application. &lt;/p&gt; 
+	&lt;p&gt;Rails combines Ruby, HTML, CSS, and JS to program web applications on a web server. As a consequence, Rails is considered as a back-end or server-side web application development platform whereas the web browsers Firefox, Chrome, IE, and Safari are examples of front end applications. Web startups usually prefer Rails.&lt;/p&gt;
+&lt;h2&gt;Why Ruby?&lt;/h2&gt;
+	&lt;p&gt;So you may have wondered why Ruby is used with rails. Ruby and not Java, PHP, or other programming languages is used in conjunction with Rails because of its &quot;clean&quot; syntax and capabilities of DRY code. Ruby is more streamlined than Java. The greatest advantage of combining Ruby with Rails is the sharing and installation of RubyGems. These gems allow developers to easily obtain the latest version of Rails to aid building complex websites.&lt;/p&gt; 
+&lt;h2&gt;Additional Resources on Rails:&lt;/h2&gt;
+	&lt;p&gt;&lt;a href = &quot;http://railsapps.github.io/what-is-ruby-rails.html&quot;&gt;in-depth rails&lt;/a&gt;&lt;/p&gt;
+				
+	&lt;p&gt;&lt;a href = &quot;http://guides.rubyonrails.org/getting_started.html&quot;&gt;rubyonrails.org&lt;/a&gt;&lt;/p&gt;
+					</description>
+        <pubDate>Fri, 25 Jul 2014 11:48:48 -0500</pubDate>
+        <link>rickydo.github.io/technical/2014/07/25/week8-technical/</link>
+        <guid isPermaLink="true">rickydo.github.io/technical/2014/07/25/week8-technical/</guid>
         
+        
+        <category>technical</category>
+        
+      </item>
+    
+      <item>
+        <title>Resolving Conflicts</title>
+        <description>&lt;h1&gt;A Conflict I Experienced&lt;/h1&gt;
+	&lt;p&gt;Honestly, I cannot remember a conflict I&#39;ve experienced off the top of my head that would be exciting to read or discuss. But I guess I could talk about conflicts with siblings since those of us who do have siblings know the struggle. My brother and I argue and fight through conflicts as often as the &quot;L&quot; train in Chicago stops (every 9-12 minutes). If it is a serious conflict our actions or words usually make it worse. However, if it is a less serious conflict such as a disagreement on what the main difference between a supercharger and a turbocharger is we usually make a joke or game out of it rather than escalate the situation.&lt;/p&gt;
+		&lt;ol&gt;
+			&lt;li&gt;Discuss a time you had an emotional conflict with someone. What was it about? What happened? &lt;/li&gt;
+				&lt;p&gt;I had one emotional conflict with a parent where I lost trust with the parent. &lt;/p&gt;
+
+			&lt;li&gt;What was the source of the conflict?&lt;/li&gt;
+				&lt;p&gt;I won&#39;t go into much detail because it is a private matter that has been put behind us but I was basically caught in a lie involving a girl I was seeing at the time.&lt;/p&gt;
+
+			&lt;li&gt;How did you handle that conflict?&lt;/li&gt;
+				&lt;p&gt;I handled the conflict poorly by denying the situation and making up an untrue circumstance. &lt;/p&gt;
+
+			&lt;li&gt;Did your actions make the conflict better or worse?&lt;/li&gt;
+				&lt;p&gt;My actions definitely made it worse&lt;/p&gt;
+
+			&lt;li&gt;If you could go back, what would you do differently, if anything?&lt;/li&gt; 
+				&lt;p&gt;I would definitely not have broken the trust. Trust is one of those things that take a long time to build but can be easily lost in an instant&lt;/p&gt;
+
+			&lt;li&gt;What did you learn from this experience?&lt;/li&gt;
+				&lt;p&gt;I&#39;m too old for those childish games and lies. The situation would have probably played out differently if I just confessed or told the truth in the first place. There is really no need to hurt someone who unconditionally loves you.&lt;/p&gt;
+		&lt;ol&gt;
+				</description>
+        <pubDate>Fri, 25 Jul 2014 11:48:48 -0500</pubDate>
+        <link>rickydo.github.io/cultural/2014/07/25/week8-cultural-blog/</link>
+        <guid isPermaLink="true">rickydo.github.io/cultural/2014/07/25/week8-cultural-blog/</guid>
+        
+        
+        <category>cultural</category>
+        
+      </item>
+    
+      <item>
+        <title>My Thinking Ways</title>
+        <description>&lt;p&gt;How do I Think?&lt;/p&gt;
+
+&lt;p&gt;I am a concrete sequential thinker which according to cgribben.com mean that I am persistent and product oriented. I am practical and detail oriented, a list maker, and a “by the numbers” person. CS thinkers tend to be realistic and process information in an orderly and linear way. The “concrete” perceptual quality means that I register info through my five senses and deal with the present. I tend to not search for hidden meanings but I do make relationships between ideas and concepts. &lt;/p&gt;
+
+&lt;p&gt;According to facstaff.gpc.edu, they believe concrete sequential learners work best when they have an orderly quiet environment (which I sometimes have, but more often than not I have music in the b/g). I usually don’t volunteer to be the first at doing anything unless I know the accepted way of doing things. CS thinkers work best when they have exact instructions/examples and receive approval of the work being done. We shine when we can apply ideas in practical hands-on ways.&lt;/p&gt;
+
+&lt;p&gt;Based on these definitions I should be studying basic concepts alone but practice concepts with other people. Pairings have definitely reinforced what I’ve learned and improved my coding practices. The biggest struggle for me so far is learning JS. I suspect that if i can get a handle on JS, Ruby shouldn’t be too much a difference. I struggle with coming up with working solutions however, when I work with a partner or see someone else’s solutions I understand why each line of code was written. My thinking style is responsible for this. I like to be able to see/work through tough challenges correctly before I am to solve it on my own. I need to become more fluent in the coding languages and fully understand the purposes of the code. This way I can implement my knowledge into solving coding problems.&lt;/p&gt;
+
+&lt;p&gt;Even though I am a CS thinker, I like to believe I have a growth mindset. I am open to new ideas and creative methods. I do like learning new things but with good guidance something I’m sure DBC will not lack. I am a multimodal learner but I know I rely heavily on visual aid/hands-on practice to really learn. My weakest method of learning is hearing. If I was to learn strictly by talks/lectures I would definitely suffer without notes.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 22 Jul 2014 11:48:48 -0500</pubDate>
+        <link>rickydo.github.io/cultural/2014/07/22/week3-cultural/</link>
+        <guid isPermaLink="true">rickydo.github.io/cultural/2014/07/22/week3-cultural/</guid>
+        
+        
+        <category>cultural</category>
+        
+      </item>
+    
+      <item>
+        <title>SQL Injection</title>
+        <description>&lt;h1&gt;What is SQL?&lt;/h1&gt;
+	&lt;p&gt;SQL is short for Structured Query Language. It is a programming language for querying (fancy word for accessing) and managing databases. SQL is has its own syntax and different database systems some of which include Microsoft Access, SQLite, MySQL, and PostgreSQL. Each of these databases have individual variations of SQL. SQL is essential to web applications that require data storing/access.&lt;/p&gt;
+	&lt;h2&gt;SQL Injection&lt;/h2&gt;
+		&lt;p&gt;SQL injection primarily involves leaving &quot;windows&quot; open in code for hackers to retrieve data they shouldn&#39;t have access to. in the context of Ruby, when strings were not properly closed off with quote marks it led to errors. However, when working with SQL these strings are the open windows in website&#39;s databases. The hacks occur whenever the program or website receives input from the user without sanitizing it. For example, if we had a website connected to a database of customers&#39; credit card information the hacker could inject his own SQL statement into the query and take the information he or she wanted. In the figure below a user would input between the quotes in the first line to enter information.&lt;/p&gt;
+			&lt;p&gt;&lt;img src = &quot;images/sql_injection.png&quot; width = 60% &gt;&lt;/p&gt;
+		&lt;p&gt;In lines 3-4 a hacker with malicious intentions has inserted his own query into the field and is now taking all information in the customer_credit_card_info table. To sanitize this code we can add escaping backslashes before every first quote mark from the user like in lines 6-7. Now, the query the hacker has inputted returns nothing.&lt;/p&gt;
+		&lt;p&gt; The SQLite3 gem for Ruby has a method for handling the quoted input by using &#39;?&#39; placeholder in the query and passing extra values to the &#39;execute&#39; method. The number of placeholders must match the number of arguments. This prevents a hacker from adding his own number of arguments in the query. &lt;/p&gt;
+		&lt;p&gt;There are many other methods to prevent SQL injection some of which include the use of Prepared Statements or parametized queries, use of stored procedures, escaping all user supplied input which we discussed above, enforcing least privilege, and white list input validation. Using prepared statements are simple to write and understand. Parametizing queries require SQL code to be defined first and then pass each parameter into the query later. This allows the database to differientiate between code and data regardless od user input. Prepared statements prevent the hacker from changing the intention of the query. For example, if a hacker wanted to input in &#39;Rick&#39; or &#39;1&#39;=&#39;1 the parametized query would deny the hackers&#39; malicious intention and would literally look for the string or for &#39;1&#39;=&#39;1. For the sake of blog length you can find the other methods explained in great detail in the links provided below. 
+	&lt;h2&gt;For additional information on SQL injection and its prevention methods check these websites out! &lt;/h2&gt;
+		&lt;p&gt;&lt;a href = &quot;http://en.wikipedia.org/wiki/SQL_injection&quot;&gt;SQL Injection via Wikipedia&lt;/a&gt;&lt;/p&gt;
+		&lt;p&gt;&lt;a href = &quot;http://ruby.bastardsbook.com/chapters/sql/&quot;&gt;ruby.bastardsbook.com&lt;/a&gt;&lt;/p&gt;
+ 		&lt;p&gt;&lt;a href = &quot;http://ruby.bastardsbook.com/chapters/sql/#placeholders-sqlite-gem&quot;&gt;about placeholders&lt;/a&gt;&lt;/p&gt;
+ 		&lt;p&gt;&lt;a href = &quot;https://www.owasp.org/index.php/SQL_Injection_Prevention_Cheat_Sheet&quot;&gt;SQL Injection prevention methods&lt;/a&gt;&lt;/p&gt;
+
+				</description>
+        <pubDate>Fri, 18 Jul 2014 11:48:48 -0500</pubDate>
+        <link>rickydo.github.io/technical/2014/07/18/week7-technical/</link>
+        <guid isPermaLink="true">rickydo.github.io/technical/2014/07/18/week7-technical/</guid>
+        
+        
+        <category>technical</category>
+        
+      </item>
+    
+      <item>
+        <title>Affirmation and Stereotype Threat</title>
+        <description>&lt;h1&gt;My Values&lt;/h1&gt;
+	&lt;p&gt;Accomplishment, accountability, compassion, creativity, efficiency, family, friendships, and integrity area few values which come to mind when I recall the times in my life when I&#39;ve felt most satisfied.&lt;/p&gt;
+		&lt;h2&gt;Friendships&lt;/h2&gt;
+			&lt;p&gt;From the chosen values I believe friendships is most important to me. As humans we are a very social beings, some of us more than others, but we crave it and need it. Don&#39;t believe me? There are reasons why timeouts (which I never had because I come from a family which received &quot;knockouts&quot;) given to you while you were young and solitary confinement in prisons are effective. We &lt;em&gt;need&lt;/em&gt; to interact with other people because it keeps us healthy and sane. The iconic film starring Tom Hanks, &quot;Cast Away&quot;, illustrates a man who is alone on an island and befriends Wilson the volleyball. He socializes and even tries to save him in a storm because Wilson had become his inanimate friend.&lt;/p&gt;
+			&lt;p&gt;Good friendships help you grow in life, is a network of friendships. Everyone has a family, be it genetically related or emotionally related. They provide that emotional crutch when you need one. Sometimes your family is there even when you don&#39;t want them to. Most importantly, your family is who you feel most comfortable being surrounded by. I am a native Houstonian so leaving my family back at home to stay in Chicago by myself is overwhelming and a little frightening. I&#39;m hoping the family I make there in Chicago will be close to what I have at home.&lt;/p&gt;
+			&lt;p&gt;If I were to rate my values on a scale of 1 to 5 with 5 being what I agree most with, I would give them a 3 or higher for each value. Accomplishment would be a 5 because I do like feeling accomplishing things as opposed to not finishing what I started. Friendships, family, and integrity all receive highest marks as well. Accountability, creativity, and efficiency receive 4&#39;s because sometimes it&#39;s difficult to be efficient without being creative. I like to believe I am creative with my ideas but maybe not critically thinking creative. I give compassion a rating of 3 not because I lack compassion, but because there are so many people out there in the world who use every opportunity to take advantage of you. That being said, it is really difficult being compassionate to the less fortunate when they could easily be that person who is taking advantage of your help.&lt;/p&gt;
+			&lt;p&gt;The last piece of advice I gave is unrelated to coding but more on a mechanical subject. I was asked by my dad, yes sometimes he asks me for car advice, about why his coworker&#39;s car would not start. The circumstances were that the coworker was able to drive to work fine but could not start the car after work even though the battery was changed. The lights in the gauge cluster and dashboard light up but no clicking or cranking sounds. My immediate reply was if the battery had enough cold cranking amps. If the battery isn&#39;t the problem than it may be a starter relay fuse that may need to be replaced or the starter itself needed replacement. &lt;/p&gt;
+			&lt;p&gt;I feel good about the values I chose. I wholeheartedly stand by their importance even if I don&#39;t exactly live by them all the time. Compassion and friendship would definitely be the values to mediate stereotype threat. Everyone could use a friend or helping hand especially if they are being put down because of stereotypes that may or may not be true for the individual. If I ever felt bad at DBC I would just remember my goal for attending DBC and why I was there. I am not learning to be a developer because I have an unconditional love or an unfulfilled desire to be the best coder in the world but I am doing this for family and friendships. People believe I have the brains to do anything I want and I tend to agree with them but I&#39;m doing this so that I can have a career and not a job. A career that would allow me to retire my parents comfortably and for me to live comfortably without worrying about what order I should pay my utility bills.&lt;/p&gt;
+				</description>
+        <pubDate>Fri, 18 Jul 2014 11:48:48 -0500</pubDate>
+        <link>rickydo.github.io/cultural/2014/07/18/week7-cultural/</link>
+        <guid isPermaLink="true">rickydo.github.io/cultural/2014/07/18/week7-cultural/</guid>
+        
+        
+        <category>cultural</category>
+        
+      </item>
+    
+      <item>
+        <title>Blocs, Procs, and Lambdas</title>
+        <description>&lt;h1&gt;Ruby Blocks, Procs, Lambdas&lt;/h1&gt;
+	&lt;h2&gt;Blocks&lt;/h2&gt;
+		&lt;p&gt;A ruby block is the piece of code that is executed. This code can be executed using curly brackets {} or a pair of &quot;do&quot; and &quot;end&quot;. Blocks can be used in conjunction with #each, #times, #collect, and other built-in methods. For example, in figure below are two ways in which we can print out the strings in the array.&lt;/p&gt;
+			&lt;p&gt;&lt;img src = &quot;images/do_end.jpg&quot; width = 40%&gt;&lt;/p&gt;
+		&lt;p&gt;The &lt;em&gt;yield&lt;/em&gt; statement invokes a block. A yield statement can also be used with parameters for invoking a block. Let&#39;s take a look at this next example. 
+			&lt;p&gt;&lt;img src =&quot;images/yield.jpg&quot; width = 40%&gt;&lt;/p&gt;
+		&lt;p&gt;When yield is executed it runs the test statement &quot;now in the block&quot;. Basically when yield is in the block it will run the test method with the block &quot;{puts &#39;now in the block&#39;}&quot;.&lt;/p&gt;
+		&lt;p&gt;This is how a yield statement would look like with parameters.&lt;/p&gt;
+			&lt;p&gt;&lt;img src = &quot;images/show_name.jpg&quot; width = 40%&gt;&lt;/p&gt;
+		&lt;p&gt;By interpolating the names (inserting the argument &quot;name&quot;) into the string we can call yield with an argument which will be used in the show_name method and the corresponding block.&lt;/p&gt;
+	&lt;h2&gt;Procs&lt;/h2&gt;
+		&lt;p&gt;In Ruby blocks cannot be saved to variables to write D.R.Y. code because blocks aren&#39;t objects. Procs come to the rescue here because they are objects themselves. Procs are &quot;saved&quot; blocks. They are simple to define. In the example below we create a new Proc for &quot;multiply&quot; and use multiply for both an_array and another_array without having to rewrite the math block. We just call &quot;&amp;&quot;multiply&quot;. Collect! and Map! do the same thing; they both take each element from the array and replace the original element with the new element. Also procs can be called on via the &quot;.call&quot; method. If we had a new proc with the code block of &quot;puts &quot;hello!&quot;, we could use the name of that proc and add &quot;.call&quot; and the proc would run. We can also use the &quot;&amp;&quot; to convert symbols as procs. In the example below, we turn the elements in string_array into integers by using the &quot;:to_i&quot; symbol.&lt;/p&gt;
+			&lt;p&gt;&lt;img src = &quot;images/symbol.jpg&quot; width = 40%&gt;&lt;/p&gt;
+	&lt;h2&gt;Lambdas&lt;/h2&gt;
+		&lt;p&gt;Lambdas are very similar to procs. Lambda syntax is different from procs though. Previously we saw that a new proc would need &quot;variable_name = Proc.new {code block}&quot;. Lambdas replace &quot;Proc.new&quot; with &quot;lambda&quot;. Lambdas also use the ampersand to call the &quot;stored&quot; block. The below is an example of lambda syntax.&lt;/p&gt;
+			&lt;p&gt;&lt;img src = &quot;images/lambda.jpg&quot; width = 40%&gt;&lt;/p&gt;
+		&lt;p&gt;There are two main differences between procs and lambdas. The first differences is that lambda checks the number of arguments passed to it, whereas procs took whatever was passed to it. However procs would output &quot;nil&quot; for the extra arguments. Lambdas will throw errors if unexpected arguments were passed to it. Second, when a lambda returns it passes control back to the calling method but a proc immediately returns WITHOUT going back to the calling method. Need a visual explanation? Check out the example below.&lt;/p&gt;
+			&lt;p&gt;&lt;img src = &quot;images/proc_lambda.jpg&quot; width = 40%&gt;&lt;/p&gt;
+		&lt;p&gt;The proc example immediately returns &quot;Celica will win!&quot; without going back to celica_gtr_proc method. On the other hand, the lambda example goes back to the celica_gtr_lambda method and outputs &quot;GTR will win!&quot;.&lt;/p&gt;
+				</description>
+        <pubDate>Fri, 11 Jul 2014 11:48:48 -0500</pubDate>
+        <link>rickydo.github.io/technical/2014/07/11/week6-technical/</link>
+        <guid isPermaLink="true">rickydo.github.io/technical/2014/07/11/week6-technical/</guid>
+        
+        
+        <category>technical</category>
+        
+      </item>
+    
+      <item>
+        <title>Stereotype Threat</title>
+        <description>&lt;h1&gt;What is Stereotype Threat?&lt;/h1&gt;
+	&lt;p&gt;To put it simply, stereotype threat is the experience of not living or carrying out your full potential because of stereotypes. These stereotypes negatively influence one&#39;s capabilties and levels of success because of ethnic or social backgrounds.&lt;/p&gt;
+&lt;h2&gt;My experiences&lt;/h2&gt;
+	&lt;p&gt;Academically, I have not felt stereotypical threats. If you asked me about other Asian stereotypes it would be an obvious yes. Asian students have the threat originate from their parents. &quot;You become doctor...lawyer or you dishonor your family!&quot; Ahaha. But in all seriousness, Asian parents have rather high expectations for their children. It is because of these high expectations that you see the majority of Asian students perform so well in their academic studies.&lt;/p&gt;
+	&lt;p&gt;Although I have not experienced negative effects of stereotype threat I have seen it in the workplace. Back when I was running things at a local company, I worked with Hispancic employees who had really low expectations for their children. They believed that graduating from high school was as good as it gets. I discussed with them that there has to be more to life than living paycheck to paycheck and because we come from low-income families we already know the struggle, labor, and the value of the dollar (even if it is nothing). We need to improve ourselves so that we don&#39;t have to save up for months just to pay a repair bill. We need to use our minds to make our money, not our bodies. I have always liked the cliche &quot;work smarter, not harder&quot;. As much as I like working with my hands building, repairing, and troubleshooting production equipment I knew I couldn&#39;t continue working there even when they bumped my pay up.&lt;/p&gt;
+	&lt;p&gt;I do not come from a family of doctors, lawyers, nail, or hair salon owners so I know all about how hard the majority of people work for a paycheck before the government takes their share. I&#39;ve never or at least do not remember judging people by their financial backgrounds based on stereoypes. Anybody could be poor or rich and we all have different problems or living circumstances. Success is not measured by a number in a bank account or how many awards are on that shelf. If I saw someone or some people experiencing stereotype threats I would like to believe I would speak up for them. At the very least tell the affected person(s) to ignore the negative expectations. Ask them if they were happy with their lives and themselves. True success should be measured by happiness. If you are happy with what you do, continue doing. If you are unhappy with what you do, find ways to improve yourself by setting goals. Not everyone has that &quot;I want to be..&quot; dream. Most of us just want to be happy, successful, with what we do and why should we let anyone or anything stand in the way of that?&lt;p/&gt;
+</description>
+        <pubDate>Fri, 11 Jul 2014 11:48:48 -0500</pubDate>
+        <link>rickydo.github.io/cultural/2014/07/11/week6-cultural-blog/</link>
+        <guid isPermaLink="true">rickydo.github.io/cultural/2014/07/11/week6-cultural-blog/</guid>
+        
+        
+        <category>cultural</category>
+        
+      </item>
+    
+      <item>
+        <title>A Pair of Minds</title>
+        <description>					&lt;h1&gt;Pairing and Feedback&lt;/h1&gt;
+					&lt;h2&gt;Pairing&lt;/h2&gt;
+					&lt;p&gt;Pairing isn&#39;t so bad. The peers are all nice and I haven&#39;t met someone who was disrespectful during the sessions. Despite the easy going people I am always anxious or a little nervous come time for the session. I get the feeling that I may not contribute to the session as much as the other person BEFORE the session even starts. However, I do think that feeling goes away as I continue to pair with the same person. The feeling of being comfortable enough to joke around while pairing is a great feeling by the way. It loosens any tensions from either side. I don&#39;t think it&#39;s fun when the code doesn&#39;t run the way we want to but it is especially rewarding when our code works. I think the only frustrating parts of pairing is when both sides have code block and haven&#39;t come up with a fresh way to tackle the challenge. But that frustration has nothing to do with the people pairing.&lt;/p&gt;
+					&lt;h2&gt;Feedback&lt;/h2&gt;
+					&lt;p&gt;I feel very vulnerable reading my feedback. They point out your flaws with the material which sometimes we can&#39;t quite control because most times we aren&#39;t on the same challenges or haven&#39;t studied the material up to that pairing session. The feedback is necessary though as long as it is contructive criticism and not destructive criticism. I like to believe I have changed my ways a bit but like most things, only time will tell if I have really improved them or not. The feedback i received is definitely helpful to my learning. From one pairing I was told I was tentative during the pairing but essentially knew what I was doing. Well first I had to look up what tentative meant ahah! I think most times I tend to think I don&#39;t know enough or anything but I really do especially when I&#39;m put on the spot or in the heat of the moment. Moments later I would realize &quot;oh, crap! I knew that!&quot; &lt;br&gt; &lt;p&gt;Writing feedback is very difficult for me. I tend to compliment the pair more than constructively criticize them because as previously mentioned I think they know more than me. I hardly ever feel like I&#39;m hot stuff so it&#39;s difficult for me to criticize how other people do during a challenge. It is not because I am afraid I would hurt their feelings or that I would say the wrong things but because pairing is completely new to me. Even during college and high school, group projects usually consisted of meeting once before the due date, assign the workloads, and then go off on our separate ways until right before the due date to weld it all together to turn in.&lt;/p&gt; &lt;p&gt; Pairing is a great way to learn. Questions are and &quot;I thought it worked this way&quot; are answered almost immediately. It is much better pairing and mentoring than to learn programming languages alone. If that were the case than why would there be so many successful programming development programs that insist on the usage of staff and peer assisted learning? &lt;/p&gt;
+			</description>
+        <pubDate>Fri, 04 Jul 2014 11:48:48 -0500</pubDate>
+        <link>rickydo.github.io/cultural/2014/07/04/week5_cultural/</link>
+        <guid isPermaLink="true">rickydo.github.io/cultural/2014/07/04/week5_cultural/</guid>
+        
+        
+        <category>cultural</category>
+        
+      </item>
+    
+      <item>
+        <title>A Little Ruby</title>
+        <description>&lt;h1&gt;A Snippet into Ruby Classes&lt;/h1&gt;
+	&lt;h2&gt;When and Why Should I use classes?&lt;/h2&gt;
+		&lt;p&gt;One question which kept simmering in my head while working on this week&#39;s challenges was &quot;when do you use Ruby classes?&quot;. Well a class is necessary when instantiation is required or when the functionality of the code needs top keep track of state. Think of class as a factory manufacturing more than one object. If just wanted one object you wouldn&#39;t use class. Let&#39;s go through an example of class Car.&lt;/p&gt;
+	&lt;h2&gt;So, How do I create a class?&lt;/h2&gt;
+		&lt;p&gt;It&#39;s as simple as typing &quot;class&quot;, a capitalized name, and closing it with &quot;end&quot;&lt;/p&gt;
+			&lt;img src = &quot;/resources/create_class.jpg&quot; width = 50%/&gt;
+	&lt;h2&gt;What&#39;s a Constructor?&lt;/h2&gt;
+		&lt;p&gt;When creating a class, it&#39;s most likely you will want the instances of the class to have some properties. You can do this by creating a constructor at the top of the class code which utilizes &quot;initialize&quot; and takes a number of arguments for the instance of class. From our Car class example we can now initialize Car make, model, and year.&lt;/p&gt; 
+			&lt;img src = &quot;/resources/create_constructor.jpg&quot; width = 50%/&gt;
+		&lt;p&gt;A shortcut for this would be to simply call &quot;attr_accessor&quot; and the instance variable as a symbol( with a colon in front ). This way you can cut down on the lines of code as well as save time.&lt;/p&gt;
+			&lt;img src = &quot;/resources/create_constructor2.jpg&quot; width = 50%/&gt;
+			&lt;img src = &quot;/resources/example.jpg&quot; width = 50%/&gt;
+	&lt;h2&gt;Instance Methods&lt;/h2&gt;
+		&lt;p&gt;Create an instance method as you would normally in Ruby by defining a method name, the code you want the method to execute, and close it.&lt;/p&gt;
+			&lt;img src = &quot;/resources/create_method.jpg&quot; width = 50%/&gt;
+	&lt;h2&gt;Creating Class Methods and Variables&lt;/h2&gt;
+		&lt;p&gt;Class methods and properties are variables and functions inaccessible to instances of the class. They are exclusive to the class itself. So if we wanted to know the number of Car instances we created we would set the count with two &quot;@&quot; symbols declaring it as a class variable equal to zero. To increment this variable with the number of instances we put it within our initialize method. We also have to create our class method. By calling self.count we tell Ruby to count how many instances of Car were created.&lt;/p&gt;
+			&lt;img src = &quot;/resources/initialize.jpg&quot; width = 50% /&gt;
+	&lt;h2&gt;Data Structures: Hashes and Arrays&lt;/h2&gt;
+		&lt;p&gt; We can use hashes and arrays to store/access information in classes. Let&#39;s use our same class Car and add a nested hash. Now we want a report of owners and details about their car. We can iterate through the nested hash using &quot;each_key&quot; method, create an instance and access the hash using the hash name, the owner name in brackets (which is the key of the inner hash), and then we call the key within that hash &quot;make&quot; in square brackets. We repeat this for the properties make, model, year. Don&#39;t forget to close the iteration!&lt;/p&gt;
+			&lt;img src = &quot;/resources/hash.jpg&quot; width = 50%/&gt;
+ 
+			</description>
+        <pubDate>Fri, 04 Jul 2014 11:48:48 -0500</pubDate>
+        <link>rickydo.github.io/technical/2014/07/04/week5-technical/</link>
+        <guid isPermaLink="true">rickydo.github.io/technical/2014/07/04/week5-technical/</guid>
+        
+        
+        <category>technical</category>
         
       </item>
     
