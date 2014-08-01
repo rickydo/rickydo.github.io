@@ -5,8 +5,8 @@
     <description>These are my blog posts while working through phase 0 of DBC.</description>
     <link>rickydo.github.io/</link>
     <atom:link href="rickydo.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 01 Aug 2014 11:47:29 -0500</pubDate>
-    <lastBuildDate>Fri, 01 Aug 2014 11:47:29 -0500</lastBuildDate>
+    <pubDate>Fri, 01 Aug 2014 12:41:04 -0500</pubDate>
+    <lastBuildDate>Fri, 01 Aug 2014 12:41:04 -0500</lastBuildDate>
     <generator>Jekyll v2.2.0</generator>
     
       <item>
@@ -132,7 +132,7 @@
 	&lt;p&gt;SQL is short for Structured Query Language. It is a programming language for querying (fancy word for accessing) and managing databases. SQL is has its own syntax and different database systems some of which include Microsoft Access, SQLite, MySQL, and PostgreSQL. Each of these databases have individual variations of SQL. SQL is essential to web applications that require data storing/access.&lt;/p&gt;
 	&lt;h2&gt;SQL Injection&lt;/h2&gt;
 		&lt;p&gt;SQL injection primarily involves leaving &quot;windows&quot; open in code for hackers to retrieve data they shouldn&#39;t have access to. in the context of Ruby, when strings were not properly closed off with quote marks it led to errors. However, when working with SQL these strings are the open windows in website&#39;s databases. The hacks occur whenever the program or website receives input from the user without sanitizing it. For example, if we had a website connected to a database of customers&#39; credit card information the hacker could inject his own SQL statement into the query and take the information he or she wanted. In the figure below a user would input between the quotes in the first line to enter information.&lt;/p&gt;
-			&lt;p&gt;&lt;img src = &quot;images/sql_injection.png&quot; width = 60% &gt;&lt;/p&gt;
+			&lt;p&gt;&lt;img src = &quot;/resources/sql_injection.png&quot; width = 60% &gt;&lt;/p&gt;
 		&lt;p&gt;In lines 3-4 a hacker with malicious intentions has inserted his own query into the field and is now taking all information in the customer_credit_card_info table. To sanitize this code we can add escaping backslashes before every first quote mark from the user like in lines 6-7. Now, the query the hacker has inputted returns nothing.&lt;/p&gt;
 		&lt;p&gt; The SQLite3 gem for Ruby has a method for handling the quoted input by using &#39;?&#39; placeholder in the query and passing extra values to the &#39;execute&#39; method. The number of placeholders must match the number of arguments. This prevents a hacker from adding his own number of arguments in the query. &lt;/p&gt;
 		&lt;p&gt;There are many other methods to prevent SQL injection some of which include the use of Prepared Statements or parametized queries, use of stored procedures, escaping all user supplied input which we discussed above, enforcing least privilege, and white list input validation. Using prepared statements are simple to write and understand. Parametizing queries require SQL code to be defined first and then pass each parameter into the query later. This allows the database to differientiate between code and data regardless od user input. Prepared statements prevent the hacker from changing the intention of the query. For example, if a hacker wanted to input in &#39;Rick&#39; or &#39;1&#39;=&#39;1 the parametized query would deny the hackers&#39; malicious intention and would literally look for the string or for &#39;1&#39;=&#39;1. For the sake of blog length you can find the other methods explained in great detail in the links provided below. 
@@ -177,21 +177,21 @@
         <description>&lt;h1&gt;Ruby Blocks, Procs, Lambdas&lt;/h1&gt;
 	&lt;h2&gt;Blocks&lt;/h2&gt;
 		&lt;p&gt;A ruby block is the piece of code that is executed. This code can be executed using curly brackets {} or a pair of &quot;do&quot; and &quot;end&quot;. Blocks can be used in conjunction with #each, #times, #collect, and other built-in methods. For example, in figure below are two ways in which we can print out the strings in the array.&lt;/p&gt;
-			&lt;p&gt;&lt;img src = &quot;images/do_end.jpg&quot; width = 40%&gt;&lt;/p&gt;
+			&lt;p&gt;&lt;img src = &quot;/resources/do_end.jpg&quot; width = 40%&gt;&lt;/p&gt;
 		&lt;p&gt;The &lt;em&gt;yield&lt;/em&gt; statement invokes a block. A yield statement can also be used with parameters for invoking a block. Let&#39;s take a look at this next example. 
-			&lt;p&gt;&lt;img src =&quot;images/yield.jpg&quot; width = 40%&gt;&lt;/p&gt;
+			&lt;p&gt;&lt;img src =&quot;/resources/yield.jpg&quot; width = 40%&gt;&lt;/p&gt;
 		&lt;p&gt;When yield is executed it runs the test statement &quot;now in the block&quot;. Basically when yield is in the block it will run the test method with the block &quot;{puts &#39;now in the block&#39;}&quot;.&lt;/p&gt;
 		&lt;p&gt;This is how a yield statement would look like with parameters.&lt;/p&gt;
-			&lt;p&gt;&lt;img src = &quot;images/show_name.jpg&quot; width = 40%&gt;&lt;/p&gt;
+			&lt;p&gt;&lt;img src = &quot;/resources/show_name.jpg&quot; width = 40%&gt;&lt;/p&gt;
 		&lt;p&gt;By interpolating the names (inserting the argument &quot;name&quot;) into the string we can call yield with an argument which will be used in the show_name method and the corresponding block.&lt;/p&gt;
 	&lt;h2&gt;Procs&lt;/h2&gt;
 		&lt;p&gt;In Ruby blocks cannot be saved to variables to write D.R.Y. code because blocks aren&#39;t objects. Procs come to the rescue here because they are objects themselves. Procs are &quot;saved&quot; blocks. They are simple to define. In the example below we create a new Proc for &quot;multiply&quot; and use multiply for both an_array and another_array without having to rewrite the math block. We just call &quot;&amp;&quot;multiply&quot;. Collect! and Map! do the same thing; they both take each element from the array and replace the original element with the new element. Also procs can be called on via the &quot;.call&quot; method. If we had a new proc with the code block of &quot;puts &quot;hello!&quot;, we could use the name of that proc and add &quot;.call&quot; and the proc would run. We can also use the &quot;&amp;&quot; to convert symbols as procs. In the example below, we turn the elements in string_array into integers by using the &quot;:to_i&quot; symbol.&lt;/p&gt;
-			&lt;p&gt;&lt;img src = &quot;images/symbol.jpg&quot; width = 40%&gt;&lt;/p&gt;
+			&lt;p&gt;&lt;img src = &quot;/resources/symbol.jpg&quot; width = 40%&gt;&lt;/p&gt;
 	&lt;h2&gt;Lambdas&lt;/h2&gt;
 		&lt;p&gt;Lambdas are very similar to procs. Lambda syntax is different from procs though. Previously we saw that a new proc would need &quot;variable_name = Proc.new {code block}&quot;. Lambdas replace &quot;Proc.new&quot; with &quot;lambda&quot;. Lambdas also use the ampersand to call the &quot;stored&quot; block. The below is an example of lambda syntax.&lt;/p&gt;
-			&lt;p&gt;&lt;img src = &quot;images/lambda.jpg&quot; width = 40%&gt;&lt;/p&gt;
+			&lt;p&gt;&lt;img src = &quot;/resources/lambda.jpg&quot; width = 40%&gt;&lt;/p&gt;
 		&lt;p&gt;There are two main differences between procs and lambdas. The first differences is that lambda checks the number of arguments passed to it, whereas procs took whatever was passed to it. However procs would output &quot;nil&quot; for the extra arguments. Lambdas will throw errors if unexpected arguments were passed to it. Second, when a lambda returns it passes control back to the calling method but a proc immediately returns WITHOUT going back to the calling method. Need a visual explanation? Check out the example below.&lt;/p&gt;
-			&lt;p&gt;&lt;img src = &quot;images/proc_lambda.jpg&quot; width = 40%&gt;&lt;/p&gt;
+			&lt;p&gt;&lt;img src = &quot;/resources/proc_lambda.jpg&quot; width = 40%&gt;&lt;/p&gt;
 		&lt;p&gt;The proc example immediately returns &quot;Celica will win!&quot; without going back to celica_gtr_proc method. On the other hand, the lambda example goes back to the celica_gtr_lambda method and outputs &quot;GTR will win!&quot;.&lt;/p&gt;
 				</description>
         <pubDate>Fri, 11 Jul 2014 11:48:48 -0500</pubDate>
