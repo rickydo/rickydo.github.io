@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>RickyD</title>
-    <description>Out of college I was on track to medical school but the MCAT fought me pretty hard and I spent a year as a QA/QC Manager at a Houston beverage bottling company doing all sorts of manual labor and compliance work. It was only in the real world did I realize that the world runs on credit and software. I don&#39;t have the credit now but I&#39;m fully capable of learning how to make it by creating software.</description>
+    <description>These are my blog posts while working through phase 0 of DBC.</description>
     <link>rickydo.github.io/</link>
     <atom:link href="rickydo.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 01 Aug 2014 10:05:41 -0500</pubDate>
-    <lastBuildDate>Fri, 01 Aug 2014 10:05:41 -0500</lastBuildDate>
+    <pubDate>Fri, 01 Aug 2014 11:47:29 -0500</pubDate>
+    <lastBuildDate>Fri, 01 Aug 2014 11:47:29 -0500</lastBuildDate>
     <generator>Jekyll v2.2.0</generator>
     
       <item>

@@ -1,11 +1,8 @@
 ---
 layout: page
-title: About
+title: My Info
 permalink: /about/
 ---
+![picture]({{rickydo.github.io}}/resources/me2.jpg)
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Out of college I was on track to medical school but the MCAT fought me pretty hard and I spent a year as a QA/QC Manager at a Houston beverage bottling company doing all sorts of manual labor and compliance work. It was only in the real world did I realize that the world runs on credit and software. I don't have the credit now but I'm fully capable of learning how to make it by creating software.
