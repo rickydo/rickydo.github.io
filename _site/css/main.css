@@ -52,7 +52,7 @@ a:visited { color: #205caa; }
 .site-title:hover,
 .site-title:visited {
   display: block;
-  color: #333;
+  color: white;
   font-size: 26px;
   letter-spacing: -1px;
   float: left;
@@ -167,6 +167,19 @@ a:visited { color: #205caa; }
 
 /* Post styles */
 /* ----------------------------------------------------------*/
+.post {
+  float:right;
+  width:65%;
+}
+
+.post-index {
+  width:30%;
+  float:left;
+}
+
+section {
+  width:100%;
+}
 
 .post-header { margin: 10px 0 30px; }
 
@@ -249,6 +262,7 @@ a:visited { color: #205caa; }
   padding-right: 0;
   padding-left: 0;
 }
+
 
 /* terminal */
 .post pre.terminal {
