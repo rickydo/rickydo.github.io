@@ -41,10 +41,11 @@ a:visited { color: #205caa; }
 /* Site header */
 
 .site-header {
-  border-top: 5px solid #333;
-  border-bottom: 1px solid #e8e8e8;
-  min-height: 56px;
-  background-color: white;
+  min-height: 50%;
+  background-image:url("/resources/tree.jpg");
+  background-repeat: no-repeat;
+  background-color: #BDBDBD;
+  background-size: 100%;
 }
 
 .site-title,
@@ -69,7 +70,7 @@ a:visited { color: #205caa; }
 
 .site-nav .page-link {
   margin-left: 20px;
-  color: #727272;
+  color: white;
   letter-spacing: -.5px;
 }
 
@@ -78,6 +79,7 @@ a:visited { color: #205caa; }
 .site-footer {
   border-top: 1px solid #e8e8e8;
   padding: 30px 0;
+  background-color: #F2F2F2;
 }
 
 .footer-heading {
@@ -137,7 +139,7 @@ a:visited { color: #205caa; }
 
 .page-content {
   padding: 30px 0;
-  background-color: #fff;
+  background-color: #BDBDBD;
 }
 
 

@@ -1,11 +1,11 @@
 # Site settings
-title: RickyD
+title: Ricky Do
 email: datvietburrido@gmail.com
 description: "These are my blog posts while working through phase 0 of DBC."
 baseurl: ""
 url: "rickydo.github.io"
 twitter_username: statusd0
-github_username:  rickyd
+github_username:  rickydo
 
 # Build settings
 markdown: kramdown
