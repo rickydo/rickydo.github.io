@@ -3,10 +3,10 @@
   <channel>
     <title>Ricky Do</title>
     <description>These are my blog posts while working through phase 0 of DBC.</description>
-    <link>rickydo.github.io/</link>
-    <atom:link href="rickydo.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 01 Aug 2014 20:20:12 -0500</pubDate>
-    <lastBuildDate>Fri, 01 Aug 2014 20:20:12 -0500</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sun, 03 Aug 2014 14:50:36 -0500</pubDate>
+    <lastBuildDate>Sun, 03 Aug 2014 14:50:36 -0500</lastBuildDate>
     <generator>Jekyll v2.2.0</generator>
     
       <item>
@@ -31,20 +31,20 @@
 	&lt;h2&gt;What Have I Asked?&lt;/h2&gt;
 		&lt;p&gt;Well I haven&#39;t asked too many questions on the August Suns Community but when I have, I received help for them. The following is one question that I asked in the community: 
 			&lt;br&gt; &lt;p&gt;&lt;/p&gt;
-						What did you guys use to reindent the HTML/CSS? I&#39;ve tried the sublime 2 reindent method but that changes nothing for me when I &quot;copy as html&quot; and save the file as html. I&#39;ve also tried installing html/css/js prettify but the package controller was also giving me problems during installation.
+						&quot;What did you guys use to reindent the HTML/CSS? I&#39;ve tried the sublime 2 reindent method but that changes nothing for me when I &quot;copy as html&quot; and save the file as html. I&#39;ve also tried installing html/css/js prettify but the package controller was also giving me problems during installation.&quot;&quot;
 			&lt;/br&gt; &lt;p&gt;&lt;/p&gt;
 		&lt;p&gt;I think is a good question. I didn&#39;t necessarily have a title but I was able to get the main idea across in the first sentence. I provided additional information including how I&#39;ve tried solving it. However, I think I could be more clear on the exact problems I was having when installing the package controller because I ended up trying to install the package controller and it worked the 3rd time around. It may not have been the perfect way to ask the question but I was able to receive help from peers in solving my problem. &lt;/p&gt;
 	&lt;h2&gt;How Others Have Asked&lt;/h2&gt;
 		&lt;p&gt;Here&#39;s a question a peer asked in the community:&lt;/p&gt; &lt;p&gt;&lt;/p&gt; 
-			&lt;br&gt;Has anyone tried the tally votes challenge for javascript yet?
+			&lt;br&gt;&quot;Has anyone tried the tally votes challenge for javascript yet?
 
 			Elena and I paired for this, and got stuck on figuring out how to add a new property and value to an empty object, and to increase that every time the same object is accessed.  But we can&#39;t even add the object through a variable; we get a unexpected token error.
 
-			Let me know if any of this makes sense! &lt;/br&gt;
+			Let me know if any of this makes sense!&quot; &lt;/br&gt;
 		&lt;p&gt;The first sentence gets the main idea across or at least grabs the attention of those who have already finished the tally challenge. I the body of the question he states what they are stuck on and specifically details the problem with the type of error. I believe this is also a good question because they were able to receive help from those who have finished the challenge. &lt;/p&gt;</description>
         <pubDate>Tue, 29 Jul 2014 11:48:48 -0500</pubDate>
-        <link>rickydo.github.io/cultural/2014/07/29/week9-cultural-blog/</link>
-        <guid isPermaLink="true">rickydo.github.io/cultural/2014/07/29/week9-cultural-blog/</guid>
+        <link>/cultural/2014/07/29/week9-cultural-blog/</link>
+        <guid isPermaLink="true">/cultural/2014/07/29/week9-cultural-blog/</guid>
         
         
         <category>cultural</category>
@@ -64,8 +64,8 @@
 	&lt;p&gt;&lt;a href = &quot;http://guides.rubyonrails.org/getting_started.html&quot;&gt;rubyonrails.org&lt;/a&gt;&lt;/p&gt;
 					</description>
         <pubDate>Fri, 25 Jul 2014 11:48:48 -0500</pubDate>
-        <link>rickydo.github.io/technical/2014/07/25/week8-technical/</link>
-        <guid isPermaLink="true">rickydo.github.io/technical/2014/07/25/week8-technical/</guid>
+        <link>/technical/2014/07/25/week8-technical/</link>
+        <guid isPermaLink="true">/technical/2014/07/25/week8-technical/</guid>
         
         
         <category>technical</category>
@@ -97,8 +97,8 @@
 		&lt;ol&gt;
 				</description>
         <pubDate>Fri, 25 Jul 2014 11:48:48 -0500</pubDate>
-        <link>rickydo.github.io/cultural/2014/07/25/week8-cultural-blog/</link>
-        <guid isPermaLink="true">rickydo.github.io/cultural/2014/07/25/week8-cultural-blog/</guid>
+        <link>/cultural/2014/07/25/week8-cultural-blog/</link>
+        <guid isPermaLink="true">/cultural/2014/07/25/week8-cultural-blog/</guid>
         
         
         <category>cultural</category>
@@ -118,8 +118,8 @@
 &lt;p&gt;Even though I am a CS thinker, I like to believe I have a growth mindset. I am open to new ideas and creative methods. I do like learning new things but with good guidance something I’m sure DBC will not lack. I am a multimodal learner but I know I rely heavily on visual aid/hands-on practice to really learn. My weakest method of learning is hearing. If I was to learn strictly by talks/lectures I would definitely suffer without notes.&lt;/p&gt;
 </description>
         <pubDate>Tue, 22 Jul 2014 11:48:48 -0500</pubDate>
-        <link>rickydo.github.io/cultural/2014/07/22/week3-cultural/</link>
-        <guid isPermaLink="true">rickydo.github.io/cultural/2014/07/22/week3-cultural/</guid>
+        <link>/cultural/2014/07/22/week3-cultural/</link>
+        <guid isPermaLink="true">/cultural/2014/07/22/week3-cultural/</guid>
         
         
         <category>cultural</category>
@@ -144,8 +144,8 @@
 
 				</description>
         <pubDate>Fri, 18 Jul 2014 11:48:48 -0500</pubDate>
-        <link>rickydo.github.io/technical/2014/07/18/week7-technical/</link>
-        <guid isPermaLink="true">rickydo.github.io/technical/2014/07/18/week7-technical/</guid>
+        <link>/technical/2014/07/18/week7-technical/</link>
+        <guid isPermaLink="true">/technical/2014/07/18/week7-technical/</guid>
         
         
         <category>technical</category>
@@ -164,8 +164,8 @@
 			&lt;p&gt;I feel good about the values I chose. I wholeheartedly stand by their importance even if I don&#39;t exactly live by them all the time. Compassion and friendship would definitely be the values to mediate stereotype threat. Everyone could use a friend or helping hand especially if they are being put down because of stereotypes that may or may not be true for the individual. If I ever felt bad at DBC I would just remember my goal for attending DBC and why I was there. I am not learning to be a developer because I have an unconditional love or an unfulfilled desire to be the best coder in the world but I am doing this for family and friendships. People believe I have the brains to do anything I want and I tend to agree with them but I&#39;m doing this so that I can have a career and not a job. A career that would allow me to retire my parents comfortably and for me to live comfortably without worrying about what order I should pay my utility bills.&lt;/p&gt;
 				</description>
         <pubDate>Fri, 18 Jul 2014 11:48:48 -0500</pubDate>
-        <link>rickydo.github.io/cultural/2014/07/18/week7-cultural/</link>
-        <guid isPermaLink="true">rickydo.github.io/cultural/2014/07/18/week7-cultural/</guid>
+        <link>/cultural/2014/07/18/week7-cultural/</link>
+        <guid isPermaLink="true">/cultural/2014/07/18/week7-cultural/</guid>
         
         
         <category>cultural</category>
@@ -195,8 +195,8 @@
 		&lt;p&gt;The proc example immediately returns &quot;Celica will win!&quot; without going back to celica_gtr_proc method. On the other hand, the lambda example goes back to the celica_gtr_lambda method and outputs &quot;GTR will win!&quot;.&lt;/p&gt;
 				</description>
         <pubDate>Fri, 11 Jul 2014 11:48:48 -0500</pubDate>
-        <link>rickydo.github.io/technical/2014/07/11/week6-technical/</link>
-        <guid isPermaLink="true">rickydo.github.io/technical/2014/07/11/week6-technical/</guid>
+        <link>/technical/2014/07/11/week6-technical/</link>
+        <guid isPermaLink="true">/technical/2014/07/11/week6-technical/</guid>
         
         
         <category>technical</category>
@@ -213,8 +213,8 @@
 	&lt;p&gt;I do not come from a family of doctors, lawyers, nail, or hair salon owners so I know all about how hard the majority of people work for a paycheck before the government takes their share. I&#39;ve never or at least do not remember judging people by their financial backgrounds based on stereoypes. Anybody could be poor or rich and we all have different problems or living circumstances. Success is not measured by a number in a bank account or how many awards are on that shelf. If I saw someone or some people experiencing stereotype threats I would like to believe I would speak up for them. At the very least tell the affected person(s) to ignore the negative expectations. Ask them if they were happy with their lives and themselves. True success should be measured by happiness. If you are happy with what you do, continue doing. If you are unhappy with what you do, find ways to improve yourself by setting goals. Not everyone has that &quot;I want to be..&quot; dream. Most of us just want to be happy, successful, with what we do and why should we let anyone or anything stand in the way of that?&lt;p/&gt;
 </description>
         <pubDate>Fri, 11 Jul 2014 11:48:48 -0500</pubDate>
-        <link>rickydo.github.io/cultural/2014/07/11/week6-cultural-blog/</link>
-        <guid isPermaLink="true">rickydo.github.io/cultural/2014/07/11/week6-cultural-blog/</guid>
+        <link>/cultural/2014/07/11/week6-cultural-blog/</link>
+        <guid isPermaLink="true">/cultural/2014/07/11/week6-cultural-blog/</guid>
         
         
         <category>cultural</category>
@@ -230,8 +230,8 @@
 					&lt;p&gt;I feel very vulnerable reading my feedback. They point out your flaws with the material which sometimes we can&#39;t quite control because most times we aren&#39;t on the same challenges or haven&#39;t studied the material up to that pairing session. The feedback is necessary though as long as it is contructive criticism and not destructive criticism. I like to believe I have changed my ways a bit but like most things, only time will tell if I have really improved them or not. The feedback i received is definitely helpful to my learning. From one pairing I was told I was tentative during the pairing but essentially knew what I was doing. Well first I had to look up what tentative meant ahah! I think most times I tend to think I don&#39;t know enough or anything but I really do especially when I&#39;m put on the spot or in the heat of the moment. Moments later I would realize &quot;oh, crap! I knew that!&quot; &lt;br&gt; &lt;p&gt;Writing feedback is very difficult for me. I tend to compliment the pair more than constructively criticize them because as previously mentioned I think they know more than me. I hardly ever feel like I&#39;m hot stuff so it&#39;s difficult for me to criticize how other people do during a challenge. It is not because I am afraid I would hurt their feelings or that I would say the wrong things but because pairing is completely new to me. Even during college and high school, group projects usually consisted of meeting once before the due date, assign the workloads, and then go off on our separate ways until right before the due date to weld it all together to turn in.&lt;/p&gt; &lt;p&gt; Pairing is a great way to learn. Questions are and &quot;I thought it worked this way&quot; are answered almost immediately. It is much better pairing and mentoring than to learn programming languages alone. If that were the case than why would there be so many successful programming development programs that insist on the usage of staff and peer assisted learning? &lt;/p&gt;
 			</description>
         <pubDate>Fri, 04 Jul 2014 11:48:48 -0500</pubDate>
-        <link>rickydo.github.io/cultural/2014/07/04/week5_cultural/</link>
-        <guid isPermaLink="true">rickydo.github.io/cultural/2014/07/04/week5_cultural/</guid>
+        <link>/cultural/2014/07/04/week5_cultural/</link>
+        <guid isPermaLink="true">/cultural/2014/07/04/week5_cultural/</guid>
         
         
         <category>cultural</category>
@@ -264,8 +264,8 @@
  
 			</description>
         <pubDate>Fri, 04 Jul 2014 11:48:48 -0500</pubDate>
-        <link>rickydo.github.io/technical/2014/07/04/week5-technical/</link>
-        <guid isPermaLink="true">rickydo.github.io/technical/2014/07/04/week5-technical/</guid>
+        <link>/technical/2014/07/04/week5-technical/</link>
+        <guid isPermaLink="true">/technical/2014/07/04/week5-technical/</guid>
         
         
         <category>technical</category>
