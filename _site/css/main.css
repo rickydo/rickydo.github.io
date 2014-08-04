@@ -377,9 +377,14 @@ section {
   .post-content ul,
   .post-content ol { padding-left: 10px; }
 
- .sidebar-contact {
-  right:5px;
-  opacity:0.4;
+ .post-index{
+  width:80%;
+  left:13%;
+  position:relative;
  }
-
+ .post{
+  width:80%;
+  left:-3%;
+  position:relative;
+ }
 }
