@@ -91,6 +91,7 @@ a:visited { color: #205caa; }
   width: 80%;
   display: block;
   margin: 0 auto ;
+  margin-bottom: 1rem;
 }
 
 .the_projects {
