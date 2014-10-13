@@ -4,6 +4,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing:border-box;
 }
 
 html, body { height: 100%; }
@@ -35,70 +36,56 @@ a:visited { color: #205caa; }
 }
 
 
+
 /* Layout Styles */
 /* ----------------------------------------------------------*/
 
 /* Site header */
 
 .site-header {
-  min-height: 50%;
-  background-image:url("/resources/tree.jpg");
-  background-repeat: no-repeat;
-  background-color: #BDBDBD;
-  background-size: 100%;
+  height: 50px;
+  background-color: #0040FF;
 }
 
-.site-title,
-.site-title:hover,
-.site-title:visited {
-  display: block;
+.site-title i {
   color: white;
-  font-size: 26px;
-  letter-spacing: -1px;
-  float: left;
-  line-height: 56px;
-  position: relative;
-  z-index: 1;
+  font-size: 2rem;
+  margin-top: 5px;
+  margin-left: 0.8rem;
+  display: inline-block;
+}
+
+#projects_button i {
+  color: white;
+  font-size: 1.4rem;
+  margin-left: 0.8rem;
+  display: inline-block;
+}
+
+#projects_button span#project_text {
+  color: white;
 }
 
 .site-nav {
-  float: right;
+  float: left;
   line-height: 56px;
 }
 
-.site-nav .menu-icon { display: none; }
-
-.site-nav .page-link {
-  margin-left: 20px;
+.header-contact a {
+  font-size: 1.5rem;
   color: white;
-  letter-spacing: -.5px;
+  float: right;
+  margin-top: 7px;
+  margin-right: 0.8rem;
 }
 
-/* fixed sidebar with contact buttons*/
-
-.sidebar-contact {
-  background-color:#BDBDBD;
-  width:40px;
-  position:fixed;
-  z-index:100;
-  opacity:0.7;
-}
-
-.sidebar-contact a img {
-  width: 100%;
-  display: inline-block
-}
-
-.sidebar-contact a:hover {
-  background-color:black;
-}
 
 /* Page Content styles */
 /* ----------------------------------------------------------*/
 
 .page-content {
   padding: 30px 0;
-  background-color: #BDBDBD;
+  background-color: #D8D8D8;
 }
 
 
@@ -119,10 +106,46 @@ a:visited { color: #205caa; }
 
 .posts .post-date {
   display: block;
-  font-size: 15px;
+  font-size: 1rem;
   color: #818181;
 }
 
+.home .blog_posts{
+  width: 65%;
+  float: left;
+  padding-right: 5px;
+}
+
+.home .blog_posts .posts li a {
+  color: black;
+  font-weight: bold;
+}
+
+.home .blog_posts .posts li p a {
+  font-size: 0.8rem;
+  color: black;
+  font-weight: bold;
+}
+
+.home .about_me{
+  width: 35%;
+  float:left;
+  padding-left: 5px;
+}
+
+.home .about_me h2 {
+   text-align: center;
+   margin-bottom: 1em;
+}
+
+.home .about_me img {
+  max-width: 40%;
+  max-height: 45%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-bottom: 1em;
+}
 
 /* Post styles */
 /* ----------------------------------------------------------*/
@@ -199,6 +222,7 @@ section {
 
 .post-content ul,
 .post-content ol { padding-left: 20px; }
+
 
 .post pre,
 .post code {
@@ -328,63 +352,22 @@ section {
 
 @media screen and (max-width: 600px) {
 
-  .wrap { padding: 0 12px; }
-
-  .site-nav {
-    position: fixed;
-    z-index: 10;
-    top: 14px; right: 8px;
-    background-color: white;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    border: 1px solid #e8e8e8;
-  }
-
-  .site-nav .menu-icon {
-    display: block;
-    font-size: 24px;
-    color: #505050;
-    float: right;
-    width: 36px;
-    text-align: center;
-    line-height: 36px;
-  }
-
-  .site-nav .menu-icon svg { width: 18px; height: 16px; }
-
-  .site-nav .trigger {
-    clear: both;
-    margin-bottom: 5px;
-    display: none;
-  }
-
-  .site-nav:hover .trigger { display: block; }
-
-  .site-nav .page-link {
-    display: block;
-    text-align: right;
-    line-height: 1.25;
-    padding: 5px 10px;
-    margin: 0;
-  }
-
-  .post-header h1 { font-size: 36px; }
-  .post-content h2 { font-size: 28px; }
-  .post-content h3 { font-size: 22px; }
-  .post-content h4 { font-size: 18px; }
-  .post-content blockquote { padding-left: 10px; }
-  .post-content ul,
-  .post-content ol { padding-left: 10px; }
-
- .post-index{
-  width:80%;
-  left:13%;
+ .post-index, .post{
+  width:100%;
   position:relative;
  }
- .post{
-  width:80%;
-  left:-3%;
+
+ .home .about_me {
+  width: 100%;
   position:relative;
+ }
+
+ .home .blog_posts {
+  width: 100%;
+  position: relative;
+ }
+
+ #projects_button #project_text {
+  display: none;
  }
 }

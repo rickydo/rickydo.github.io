@@ -2,12 +2,12 @@
 layout: post
 title:  "Today's Software Apps vs Law"
 date:   2014-06-29 16:48:48
-categories: cultural
+category: cultural
 ---
 
 Who Doesn't Like App Efficiency?
 
-Innovative technologies usually clash with old ways and methods. There are numerous apps out there which are constantly clashing with set and regulated infrastructure. There are too many to discuss in this blog post but we can go over "Monkey Parking" and "Uber".
+Innovative technologies usually clash with old ways and methods. There are numerous apps out there which are constantly clashing with set and regulated infrastructure. There are too many to discuss in this blog post but we can go over "Monkey Parking" and "Uber". 
 			
 "Monkey Parking"
 

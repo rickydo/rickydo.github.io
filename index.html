@@ -4,17 +4,27 @@ layout: default
 
 <div class="home">
 
-  <h1>Posts</h1>
+  <div class="blog_posts">
+    <h1>Blog Posts</h1>
 
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+    <ul class="posts">
+      {% for post in site.posts %}
+        <li>
+          <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
 
-  <!--<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>-->
+          {{ post.content | truncatewords: 50 }}
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">View Post</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="about_me">
+    <h2>Who Am I?</h2>
+      <img src="/resources/me2.jpg">
+      <p>Hi there, I'm a biologist turned full stack web/app developer with experience in RoR, JS, HTML5, CSS/SASS, and Agile development. I'm mechanically inclined, play all sorts of sports, and have many favorite TV shows (HIMYM, The Office, Modern Family just to name a few). I am <strong>Ricky Do</strong></p>
+
+  </div>
 
 </div>

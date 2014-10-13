@@ -1,13 +1,82 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ricky Do</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="These are my blog posts while working through phase 0 of DBC.">
+    <link rel="canonical" href="/feed.xml">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/main.css">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+
+</head>
+
+
+    <body>
+
+    <header class="site-header">
+    <nav class="site-nav">
+      <a class="site-title" href="/"><i class="fa fa-home"></i></a> 
+      <a id="projects_button" href="/projects/index.html"><i class="fa fa-cubes"></i><span id="project_text"> Projects</span></a>  
+ 
+    </nav>
+ 
+  <div class = "header-contact">
+      <a href = "mailto:ricky.dop@gmail.com"><i class="fa fa-envelope"></i></a>
+      <a href = "https://www.facebook.com/phucee" target="_blank>"><i class="fa fa-facebook"></i></a>
+      <a href = "https://github.com/rickydo" target="_blank"><i class="fa fa-github-alt"></i></a>
+      <a href ="https://www.linkedin.com/in/rickydo"><i class="fa fa-linkedin"></i></a>
+      <a href="https://twitter.com/statusd0" target-"_blank"><i class="fa fa-twitter"></i></a>
+  </div>
+</header>
+
+
+    <div class="page-content">
+      <div class="wrap">
+      <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ricky Do</title>
     <description>These are my blog posts while working through phase 0 of DBC.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 03 Aug 2014 19:17:28 -0500</pubDate>
-    <lastBuildDate>Sun, 03 Aug 2014 19:17:28 -0500</lastBuildDate>
-    <generator>Jekyll v2.2.0</generator>
+    <pubDate>Mon, 13 Oct 2014 16:25:11 -0500</pubDate>
+    <lastBuildDate>Mon, 13 Oct 2014 16:25:11 -0500</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>The Post DBC Experience</title>
+        <description>&lt;h1&gt;Mixed Emotions&lt;/h1&gt;
+
+&lt;p&gt;DBC was an awesome, maybe one of a kind experience. I pushed through all 4 phases with the mantids, or the improper plural version we used &quot;mantises&quot;, and I couldn&#39;t have wanted a more closely woven group. We struggled a lot through the phases and accomplished just as much. Each of us came from different backgrounds but contributed our best efforts for each project.&lt;/p&gt;
+
+
+&lt;p&gt;I may be biased but DBC is possibly the best coding bootcamp that exists. At least from what I&#39;ve heard from other alumni from another coding bootcamp and from my personal experience. DBC has career support and technical coding support not found with other programs, so I&#39;m definitely grateful I put the money towards DBC. &lt;/p&gt;
+
+&lt;p&gt;Graduation was a bucket of relief, happiness, pride, and growing sadness. We were all so glad that the sleepless and restless nights came to an end. Final projects were finished and presented without bugs and hiccups. However, at the same time graduating also meant that mantids who came to Chicago were also going to leave, in addition to those of us who were open to moving to different states. When you spend ~80-95% of your waking hours with a group of people everyday for 9 weeks you tend to grow fond of them. They become your family and the thought of leaving them haunts you. I&#39;m hoping the next team I work with is comparable to the mantids.&lt;/p&gt;
+
+&lt;p&gt;On the flip side, I&#39;m finally able to play the song &quot;Coming Home&quot; part 2 by Skylar Grey (just her singing though and not the songs with other people in it..blegh). Synchronously with sadness, I&#39;m also excited to drive back to Houston and see family, eat REAL Asian food again, work on my car, and drive my car again. Initially, I hated taking the L train in Chicago but after 4 months, I wouldn&#39;t mind taking a train if I had to in another city, especially if I&#39;m avoiding traffic and the terribly impatient drivers in Chicago. &lt;/p&gt;
+
+&lt;p&gt;After all the stress thrown at us during DBC it is surprising how creating resumes, using LinkedIn, and using social media apps to find jobs is proving to be much more stressful. Actually, it&#39;s a little terrifying now that we are out in the real world looking for careers and employers. I&#39;m not a social media friendly kind of person so tweeting, connecting on LinkedIn, and sending cold emails to strangers is very foreign to me, in addition to interview processes that span longer than 2 hours.&lt;/p&gt;
+
+&lt;p&gt;So I&#39;m ending this rant with how I&#39;m most definitely going to miss my new family and wish them all lifelong prosperity and happiness. &lt;/p&gt;
+
+&lt;p&gt;Vitamin C&#39;s &quot;Graduation&quot; playing on a loop &lt;/p&gt;
+</description>
+        <pubDate>Mon, 13 Oct 2014 09:34:22 -0500</pubDate>
+        <link>/cultural/2014/10/13/post-dbc/</link>
+        <guid isPermaLink="true">/cultural/2014/10/13/post-dbc/</guid>
+        
+        
+        <category>cultural</category>
+        
+      </item>
     
       <item>
         <title>How to Ask for Help</title>
@@ -54,7 +123,7 @@
       <item>
         <title>Ruby on Rails</title>
         <description>&lt;h1&gt;Rails&lt;/h1&gt;
-	&lt;p&gt;Ruby and Rails are not the same thing. Ruby is the programming language.Rails is a Rubygem or package library which is installed via terminal or command line.  Rails is the web application framework coded &lt;em&gt;using&lt;/em&gt; Ruby. Rails makes programming web applications easier and more fun by laying the groundwork that every developer may need to begin coding. As a result, programmers are able to write less code. However because Rails assumes what a developer needs it makes the assumption that there is a best way and discourages all others. Learning the Rails will increase productivity and includes two very important guidelines. One of these guidelines is to keep your code DRY without repeats. The other guideline is to prefer convention over configuration. In other words, code the way Rails wants you to code a web application. &lt;/p&gt; 
+	&lt;p&gt;Ruby and Rails are not the same thing. Ruby is the programming language. Rails is a Rubygem or package library which is installed via terminal or command line.  Rails is the web application framework coded &lt;em&gt;using&lt;/em&gt; Ruby. Rails makes programming web applications easier and more fun by laying the groundwork that every developer may need to begin coding. As a result, programmers are able to write less code. However because Rails assumes what a developer needs it makes the assumption that there is a best way and discourages all others. Learning the Rails will increase productivity and includes two very important guidelines. One of these guidelines is to keep your code DRY without repeats. The other guideline is to prefer convention over configuration. In other words, code the way Rails wants you to code a web application. &lt;/p&gt; 
 	&lt;p&gt;Rails combines Ruby, HTML, CSS, and JS to program web applications on a web server. As a consequence, Rails is considered as a back-end or server-side web application development platform whereas the web browsers Firefox, Chrome, IE, and Safari are examples of front end applications. Web startups usually prefer Rails.&lt;/p&gt;
 &lt;h2&gt;Why Ruby?&lt;/h2&gt;
 	&lt;p&gt;So you may have wondered why Ruby is used with rails. Ruby and not Java, PHP, or other programming languages is used in conjunction with Rails because of its &quot;clean&quot; syntax and capabilities of DRY code. Ruby is more streamlined than Java. The greatest advantage of combining Ruby with Rails is the sharing and installation of RubyGems. These gems allow developers to easily obtain the latest version of Rails to aid building complex websites.&lt;/p&gt; 
@@ -238,39 +307,14 @@
         
       </item>
     
-      <item>
-        <title>A Little Ruby</title>
-        <description>&lt;h1&gt;A Snippet into Ruby Classes&lt;/h1&gt;
-	&lt;h2&gt;When and Why Should I use classes?&lt;/h2&gt;
-		&lt;p&gt;One question which kept simmering in my head while working on this week&#39;s challenges was &quot;when do you use Ruby classes?&quot;. Well a class is necessary when instantiation is required or when the functionality of the code needs top keep track of state. Think of class as a factory manufacturing more than one object. If just wanted one object you wouldn&#39;t use class. Let&#39;s go through an example of class Car.&lt;/p&gt;
-	&lt;h2&gt;So, How do I create a class?&lt;/h2&gt;
-		&lt;p&gt;It&#39;s as simple as typing &quot;class&quot;, a capitalized name, and closing it with &quot;end&quot;&lt;/p&gt;
-			&lt;img src = &quot;/resources/create_class.jpg&quot; width = 50%/&gt;
-	&lt;h2&gt;What&#39;s a Constructor?&lt;/h2&gt;
-		&lt;p&gt;When creating a class, it&#39;s most likely you will want the instances of the class to have some properties. You can do this by creating a constructor at the top of the class code which utilizes &quot;initialize&quot; and takes a number of arguments for the instance of class. From our Car class example we can now initialize Car make, model, and year.&lt;/p&gt; 
-			&lt;img src = &quot;/resources/create_constructor.jpg&quot; width = 50%/&gt;
-		&lt;p&gt;A shortcut for this would be to simply call &quot;attr_accessor&quot; and the instance variable as a symbol( with a colon in front ). This way you can cut down on the lines of code as well as save time.&lt;/p&gt;
-			&lt;img src = &quot;/resources/create_constructor2.jpg&quot; width = 50%/&gt;
-			&lt;img src = &quot;/resources/example.jpg&quot; width = 50%/&gt;
-	&lt;h2&gt;Instance Methods&lt;/h2&gt;
-		&lt;p&gt;Create an instance method as you would normally in Ruby by defining a method name, the code you want the method to execute, and close it.&lt;/p&gt;
-			&lt;img src = &quot;/resources/create_method.jpg&quot; width = 50%/&gt;
-	&lt;h2&gt;Creating Class Methods and Variables&lt;/h2&gt;
-		&lt;p&gt;Class methods and properties are variables and functions inaccessible to instances of the class. They are exclusive to the class itself. So if we wanted to know the number of Car instances we created we would set the count with two &quot;@&quot; symbols declaring it as a class variable equal to zero. To increment this variable with the number of instances we put it within our initialize method. We also have to create our class method. By calling self.count we tell Ruby to count how many instances of Car were created.&lt;/p&gt;
-			&lt;img src = &quot;/resources/initialize.jpg&quot; width = 50% /&gt;
-	&lt;h2&gt;Data Structures: Hashes and Arrays&lt;/h2&gt;
-		&lt;p&gt; We can use hashes and arrays to store/access information in classes. Let&#39;s use our same class Car and add a nested hash. Now we want a report of owners and details about their car. We can iterate through the nested hash using &quot;each_key&quot; method, create an instance and access the hash using the hash name, the owner name in brackets (which is the key of the inner hash), and then we call the key within that hash &quot;make&quot; in square brackets. We repeat this for the properties make, model, year. Don&#39;t forget to close the iteration!&lt;/p&gt;
-			&lt;img src = &quot;/resources/hash.jpg&quot; width = 50%/&gt;
- 
-			</description>
-        <pubDate>Fri, 04 Jul 2014 11:48:48 -0500</pubDate>
-        <link>/technical/2014/07/04/week5-technical/</link>
-        <guid isPermaLink="true">/technical/2014/07/04/week5-technical/</guid>
-        
-        
-        <category>technical</category>
-        
-      </item>
-    
   </channel>
 </rss>
+
+      
+      </div>
+    </div>
+
+    
+
+    </body>
+</html>
