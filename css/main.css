@@ -87,6 +87,13 @@ a:visited { color: #205caa; }
   padding: 30px 0;
 }
 
+.page-content .screenshot {
+  width: 80%;
+}
+
+.the_projects {
+  margin-bottom: 1rem;
+}
 
 /* Home styles */
 /* ----------------------------------------------------------*/
