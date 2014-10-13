@@ -1,1 +1,19 @@
-<p>project index</p>
+---
+layout: default
+---
+
+<div class="project_index">
+    <h1>My Projects</h1>
+
+    <ul class="the_projects">
+      {% for project in site.projects %}
+        <li>
+         
+          <a class="project-link" href="{{ project.url | prepend: site.baseurl }}">{{project.title}}</a>
+
+          {{ project.content | truncatewords: 50 }}
+          <a class="project-link" href="{{ project.url | prepend: site.baseurl }}">View Project</a>
+        </li>
+      {% endfor %}
+    </ul>
+</div>
