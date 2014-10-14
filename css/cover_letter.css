@@ -1,0 +1,53 @@
+* {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+p{
+	font-size: 1rem;
+	font-family: Georgia, Arial ;
+}
+
+body {
+	background-color: #FAFAFA;
+}
+
+header  {
+	text-align: right;
+}
+
+header a {
+	margin-right: 5px;
+}
+
+.content {
+	width: 100%;
+	padding: 10%;
+}
+/*greeting div css*/
+
+.greeting {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.greeting h2 {
+	text-align: center;
+}
+
+.greeting p {
+	text-align: center;
+}
+
+.about_me {
+	width: 50%;
+	float: left;
+}
+
+.company_info {
+	width: 50%;
+	float: right;
+}
