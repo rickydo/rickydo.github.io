@@ -41,6 +41,10 @@ header a { margin-right: 5px; }
 	padding-right: 2%;
 }
 
+.about_me h2 {
+	border-bottom: black solid 1px
+}
+
 /*company info section css */
 .company_info {
 	width: 50%;
