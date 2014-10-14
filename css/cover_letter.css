@@ -1,14 +1,22 @@
 * { box-sizing: border-box; }
 
+/*@font-face {
+	font-family: customFont ;
+	src: url();
+}
+*/
+
+
 a { text-decoration: none; }
+
 a:visited { color: #BDBDBD;}
 
 
 p {
+	font-family: 'Dosis', Georgia, Arial ;
 	color: #08298A;
 	font-size: 1rem;
-	font-weight: 500;
-	font-family: Georgia, Arial ;
+	font-weight: 800;
 	line-height: 35px;
 }
 
