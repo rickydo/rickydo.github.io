@@ -1,53 +1,63 @@
-* {
-	box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
-a {
-	text-decoration: none;
-}
+a { text-decoration: none; }
+a:visited { color: #BDBDBD;}
 
-p{
+
+p {
+	color: #08298A;
 	font-size: 1rem;
+	font-weight: 500;
 	font-family: Georgia, Arial ;
 }
 
-body {
-	background-color: #FAFAFA;
-}
+body { background-color: #FAFAFA; }
 
-header  {
-	text-align: right;
-}
+header  { text-align: right; }
 
-header a {
-	margin-right: 5px;
-}
+header a { margin-right: 5px; }
 
 .content {
 	width: 100%;
-	padding: 10%;
+	padding: 5% 10% 5% 10% ;
+
 }
-/*greeting div css*/
+/* greeting div css */
 
 .greeting {
 	width: 80%;
 	margin: 0 auto;
+	padding-bottom: 3%;
 }
 
-.greeting h2 {
-	text-align: center;
-}
+.greeting h2 { text-align: center; }
 
-.greeting p {
-	text-align: center;
-}
+.greeting p { text-align: center; }
 
+/* about me section css */
 .about_me {
 	width: 50%;
 	float: left;
+	padding-right: 2%;
 }
 
+/*company info section css */
 .company_info {
 	width: 50%;
 	float: right;
+	padding-left: 2%;
 }
+
+/*contact info css*/
+.contact_info {
+	clear: both;
+	margin: 0 auto;
+	text-align: center;
+} 
+
+
+
+
+
+
+
