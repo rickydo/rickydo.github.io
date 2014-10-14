@@ -9,6 +9,7 @@ p {
 	font-size: 1rem;
 	font-weight: 500;
 	font-family: Georgia, Arial ;
+	line-height: 35px;
 }
 
 body { background-color: #FAFAFA; }
@@ -19,7 +20,7 @@ header a { margin-right: 5px; }
 
 .content {
 	width: 100%;
-	padding: 5% 10% 5% 10% ;
+	padding: 5% 5% 1% 5% ;
 
 }
 /* greeting div css */
@@ -30,7 +31,10 @@ header a { margin-right: 5px; }
 	padding-bottom: 3%;
 }
 
-.greeting h2 { text-align: center; }
+.greeting h1 { 
+	font-family: comic sans ms, times new roman ;
+	text-align: center; 
+}
 
 .greeting p { text-align: center; }
 
@@ -42,7 +46,20 @@ header a { margin-right: 5px; }
 }
 
 .about_me h2 {
-	border-bottom: black solid 1px
+	text-align: center;
+	border-bottom: black solid 1px;
+	padding-bottom: 5px;
+}
+
+.about_me img {
+	display: block;
+	margin: 0 auto;
+	max-height:50%;
+	max-width:100%;
+}
+
+.about_me span.highlight_me {
+	color: black;
 }
 
 /*company info section css */
@@ -50,6 +67,12 @@ header a { margin-right: 5px; }
 	width: 50%;
 	float: right;
 	padding-left: 2%;
+}
+
+.company_info h2 {
+	text-align: center;
+	border-bottom: black solid 1px;
+	padding-bottom: 5px;
 }
 
 /*contact info css*/
@@ -147,5 +170,15 @@ header a { margin-right: 5px; }
   transform: scale(1.1);
 }
 
+/*medium resolution*/
+@media screen and (max-width: 750px) {
 
+  
+
+}
+
+/*low resolution*/
+@media screen and (max-width: 320px){
+
+}
 
