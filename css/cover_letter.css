@@ -170,15 +170,16 @@ header a { margin-right: 5px; }
   transform: scale(1.1);
 }
 
-/*medium resolution*/
+/*medium and lower resolution*/
 @media screen and (max-width: 750px) {
-
+	.about_me {
+		width: 100%;
+	}
   
+  	.company_info {
+		width: 100%;
+  	}
 
 }
 
-/*low resolution*/
-@media screen and (max-width: 320px){
-
-}
 
