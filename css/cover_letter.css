@@ -83,6 +83,10 @@ header a { margin-right: 5px; }
 	padding-bottom: 5px;
 }
 
+.company_info span.highlight_me {
+	color: black;
+}
+
 /*contact info css*/
 .contact_info {
 	clear: both;
